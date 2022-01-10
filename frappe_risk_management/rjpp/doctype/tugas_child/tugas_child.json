@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:tugas",
+ "creation": "2022-01-07 00:08:52.345875",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3",
+  "tugas",
+  "direktorat",
+  "divisi",
+  "pic",
+  "column_break_5",
+  "base_line_tanggal_mulai",
+  "base_line_tanggal_selesai",
+  "ik",
+  "unit_ik",
+  "target_ik",
+  "anggaran"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "tugas",
+   "fieldtype": "Small Text",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Tugas",
+   "reqd": 1
+  },
+  {
+   "fieldname": "direktorat",
+   "fieldtype": "Link",
+   "label": "Direktorat",
+   "options": "Direktorat"
+  },
+  {
+   "fieldname": "divisi",
+   "fieldtype": "Link",
+   "label": "Divisi",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "pic",
+   "fieldtype": "Link",
+   "label": "PIC",
+   "options": "PIC"
+  },
+  {
+   "fieldname": "base_line_tanggal_mulai",
+   "fieldtype": "Date",
+   "label": "Base Line Tanggal Mulai"
+  },
+  {
+   "fieldname": "base_line_tanggal_selesai",
+   "fieldtype": "Date",
+   "label": "Base Line Tanggal Selesai"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ik",
+   "fieldtype": "Link",
+   "label": "IK",
+   "options": "Indikator Kinerja"
+  },
+  {
+   "fieldname": "unit_ik",
+   "fieldtype": "Link",
+   "label": "Unit IK",
+   "options": "Unit Indikator Kinerja"
+  },
+  {
+   "fieldname": "target_ik",
+   "fieldtype": "Data",
+   "label": "Target IK"
+  },
+  {
+   "fieldname": "anggaran",
+   "fieldtype": "Currency",
+   "label": "Anggaran"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-01-07 01:56:38.963707",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Tugas Child",
+ "name_case": "Title Case",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

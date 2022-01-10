@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{sasaran}-{singkatan_direktorat}-{###}",
+ "creation": "2022-01-05 17:01:59.896849",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sasaran",
+  "kegiatan",
+  "data_3",
+  "rjpp",
+  "rkap",
+  "keterangan_program",
+  "keterangan_sasaran",
+  "section_break_3",
+  "direktorat",
+  "singkatan_direktorat",
+  "divisi",
+  "pic",
+  "base_line_tanggal_mulai",
+  "base_line_tanggal_selesai",
+  "column_break_5",
+  "ik",
+  "unit_ik",
+  "target_ik",
+  "anggaran",
+  "tugas_section",
+  "tugas"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "kegiatan",
+   "fieldtype": "Small Text",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kegiatan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "direktorat",
+   "fieldtype": "Link",
+   "label": "Direktorat",
+   "options": "Direktorat",
+   "reqd": 1
+  },
+  {
+   "fieldname": "divisi",
+   "fieldtype": "Link",
+   "label": "Divisi",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "pic",
+   "fieldtype": "Link",
+   "label": "PIC",
+   "options": "PIC"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_line_tanggal_mulai",
+   "fieldtype": "Date",
+   "label": "Base Line Tanggal Mulai"
+  },
+  {
+   "fieldname": "base_line_tanggal_selesai",
+   "fieldtype": "Date",
+   "label": "Base Line Tanggal Selesai"
+  },
+  {
+   "fieldname": "sasaran",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sasaran",
+   "options": "Sasarans",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ik",
+   "fieldtype": "Link",
+   "label": "IK",
+   "options": "Indikator Kinerja"
+  },
+  {
+   "fieldname": "unit_ik",
+   "fieldtype": "Link",
+   "label": "Unit IK",
+   "options": "Unit Indikator Kinerja"
+  },
+  {
+   "fieldname": "target_ik",
+   "fieldtype": "Data",
+   "label": "Target IK"
+  },
+  {
+   "fieldname": "anggaran",
+   "fieldtype": "Currency",
+   "label": "Anggaran"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "sasaran.rjpp",
+   "fieldname": "rjpp",
+   "fieldtype": "Link",
+   "label": "RJPP",
+   "options": "Rencana Jangka Panjang Perusahaan",
+   "read_only": 1
+  },
+  {
+   "fieldname": "data_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "sasaran.rkap",
+   "fieldname": "rkap",
+   "fieldtype": "Link",
+   "label": "RKAP",
+   "options": "RKAP",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "sasaran.sasaran",
+   "fieldname": "keterangan_sasaran",
+   "fieldtype": "Small Text",
+   "label": "Sasaran",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "sasaran.keterangan_program",
+   "fieldname": "keterangan_program",
+   "fieldtype": "Small Text",
+   "label": "Program",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "direktorat.singkatan",
+   "fieldname": "singkatan_direktorat",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Singkatan direktorat"
+  },
+  {
+   "fieldname": "tugas_section",
+   "fieldtype": "Section Break",
+   "label": "Tugas "
+  },
+  {
+   "fieldname": "tugas",
+   "fieldtype": "Table",
+   "label": "Tugas",
+   "options": "Tugas Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-07 02:14:20.340953",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Kegiatans",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "kegiatan",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

@@ -1,0 +1,168 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:PK{MM}{YY}{#####}",
+ "creation": "2022-01-06 03:32:21.183908",
+ "description": "xcvdf  sdf sd  sdf ",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sasaran_dan_kegiatan_tab",
+  "html_1",
+  "column_break_2",
+  "sasarans",
+  "code_kegiatan",
+  "rjpp",
+  "rkap",
+  "column_break_8",
+  "program",
+  "sasaran",
+  "kegiatan",
+  "konteks_internal_tab",
+  "internal",
+  "konteks_external_tab",
+  "external",
+  "risiko_tab",
+  "risiko"
+ ],
+ "fields": [
+  {
+   "fetch_from": "code_kegiatan.kegiatan",
+   "fieldname": "kegiatan",
+   "fieldtype": "Small Text",
+   "label": "Kegiatan",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "code_kegiatan.keterangan_sasaran",
+   "fieldname": "sasaran",
+   "fieldtype": "Small Text",
+   "label": "Sasaran",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "code_kegiatan.keterangan_program",
+   "fieldname": "program",
+   "fieldtype": "Small Text",
+   "label": "Program",
+   "read_only": 1
+  },
+  {
+   "fieldname": "code_kegiatan",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kegiatan",
+   "options": "Kegiatans",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "code_kegiatan.rkap",
+   "fieldname": "rkap",
+   "fieldtype": "Data",
+   "label": "RKAP",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "code_kegiatan.rjpp",
+   "fieldname": "rjpp",
+   "fieldtype": "Data",
+   "label": "RJPP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "external",
+   "fieldtype": "Table",
+   "label": "External",
+   "options": "Penetapan Konteks External Child"
+  },
+  {
+   "fieldname": "internal",
+   "fieldtype": "Table",
+   "label": "Internal",
+   "options": "Penetapan Konteks Intenal Child"
+  },
+  {
+   "columns": 11,
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "Penetapan konteks bertujuan untuk menganalisa kondisi faktor external dan internal yang dapat memicu terjadinya peristiwa yang mungkin terjadi dan dampak negatif terhadap pencapaian sasaran (Risiko).",
+   "print_width": "100px",
+   "read_only": 1,
+   "width": "100px"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "konteks_external_tab",
+   "fieldtype": "Tab Break",
+   "label": "Konteks External"
+  },
+  {
+   "fieldname": "konteks_internal_tab",
+   "fieldtype": "Tab Break",
+   "label": "Konteks Internal"
+  },
+  {
+   "fieldname": "sasaran_dan_kegiatan_tab",
+   "fieldtype": "Tab Break",
+   "label": "Sasaran dan Kegiatan"
+  },
+  {
+   "fieldname": "risiko_tab",
+   "fieldtype": "Tab Break",
+   "label": "Risiko"
+  },
+  {
+   "fieldname": "risiko",
+   "fieldtype": "Table",
+   "label": "Risiko",
+   "options": "Risiko Child"
+  },
+  {
+   "fieldname": "sasarans",
+   "fieldtype": "Link",
+   "label": "Sasarans",
+   "options": "Sasarans",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-11 00:03:15.817806",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Penetapan Konteks",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

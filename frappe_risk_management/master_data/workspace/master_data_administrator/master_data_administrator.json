@@ -1,0 +1,73 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Master Data\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master Data Indikator Kinerja\",\"col\":4}}]",
+ "creation": "2022-01-04 03:11:01.148654",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "Administrator",
+ "hide_custom": 0,
+ "icon": "stock",
+ "idx": 0,
+ "label": "Master Data-Administrator",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master Data Indikator Kinerja",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Satuan Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Satuan Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Target Indikator Kinerka",
+   "link_count": 0,
+   "link_to": "Target Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Tipe Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-01-04 03:44:34.973180",
+ "modified_by": "Administrator",
+ "module": "Master Data",
+ "name": "Master Data-Administrator",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [],
+ "title": "Master Data"
+}

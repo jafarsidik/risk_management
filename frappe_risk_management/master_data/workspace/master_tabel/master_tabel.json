@@ -1,0 +1,228 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}}]",
+ "creation": "2022-01-04 13:47:28.880924",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "table",
+ "idx": 0,
+ "label": "Master Tabel",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indikator",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Satuan Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Satuan Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Tipe Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Indikantor Kinerja",
+   "link_count": 0,
+   "link_to": "Unit Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Perspektif",
+   "link_count": 0,
+   "link_to": "Perspektif",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Aspek",
+   "link_count": 0,
+   "link_to": "Aspek",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fungsi",
+   "link_count": 0,
+   "link_to": "Fungsi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Strategic Business Unit",
+   "link_count": 7,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Perusahaan",
+   "link_count": 0,
+   "link_to": "Perusahaan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Direktorat",
+   "link_count": 0,
+   "link_to": "Direktorat",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Divisi",
+   "link_count": 0,
+   "link_to": "Divisi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Kerja",
+   "link_count": 0,
+   "link_to": "Unit Kerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PIC",
+   "link_count": 0,
+   "link_to": "PIC",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RJPP",
+   "link_count": 0,
+   "link_to": "Rencana Jangka Panjang Perusahaan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "RKAP",
+   "link_count": 0,
+   "link_to": "RKAP",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master External / Internal",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Faktor External",
+   "link_count": 0,
+   "link_to": "Faktor External",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Parameter External",
+   "link_count": 0,
+   "link_to": "Parameter External",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Faktor Internal",
+   "link_count": 0,
+   "link_to": "Faktor Internal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Parameter Internal",
+   "link_count": 0,
+   "link_to": "Parameter Internal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-01-06 04:12:41.585728",
+ "modified_by": "Administrator",
+ "module": "Master Data",
+ "name": "Master Tabel",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 10,
+ "shortcuts": [],
+ "title": "Master Tabel"
+}

@@ -1,0 +1,188 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{program}-{###}",
+ "creation": "2022-01-05 17:18:57.447620",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "program",
+  "keterangan_program",
+  "sasaran",
+  "column_break_5",
+  "rkap",
+  "rjpp",
+  "section_break_3",
+  "direktorat",
+  "divisi",
+  "pic",
+  "baseline_tanggal_mulai",
+  "base_line_tanggal_selesai",
+  "column_break_11",
+  "kpi",
+  "unit_kpi",
+  "target_kpi",
+  "perspektif",
+  "fungsi",
+  "aspek"
+ ],
+ "fields": [
+  {
+   "fieldname": "sasaran",
+   "fieldtype": "Small Text",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sasaran",
+   "reqd": 1
+  },
+  {
+   "fieldname": "direktorat",
+   "fieldtype": "Link",
+   "label": "Direktorat",
+   "options": "Direktorat"
+  },
+  {
+   "fieldname": "divisi",
+   "fieldtype": "Link",
+   "label": "Divisi",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "pic",
+   "fieldtype": "Link",
+   "label": "PIC",
+   "options": "PIC"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "baseline_tanggal_mulai",
+   "fieldtype": "Date",
+   "label": "BaseLine Tanggal Mulai"
+  },
+  {
+   "fieldname": "base_line_tanggal_selesai",
+   "fieldtype": "Date",
+   "label": "Base Line Tanggal Selesai"
+  },
+  {
+   "fieldname": "aspek",
+   "fieldtype": "Link",
+   "label": "Aspek",
+   "options": "Aspek"
+  },
+  {
+   "columns": 4,
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kpi",
+   "fieldtype": "Link",
+   "label": "Indikator Kinerja",
+   "options": "Indikator Kinerja"
+  },
+  {
+   "fieldname": "unit_kpi",
+   "fieldtype": "Link",
+   "label": "Satuan Indikator Kinerja",
+   "options": "Satuan Indikator Kinerja"
+  },
+  {
+   "fieldname": "target_kpi",
+   "fieldtype": "Int",
+   "label": "Target Indikator Kinerja"
+  },
+  {
+   "fieldname": "perspektif",
+   "fieldtype": "Link",
+   "label": "Perspektif",
+   "options": "Perspektif"
+  },
+  {
+   "fetch_from": "program.rjpp",
+   "fieldname": "rjpp",
+   "fieldtype": "Link",
+   "label": "RJPP",
+   "options": "Rencana Jangka Panjang Perusahaan",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "program.rkap",
+   "fieldname": "rkap",
+   "fieldtype": "Link",
+   "label": "RKAP",
+   "options": "RKAP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fungsi",
+   "fieldtype": "Link",
+   "label": "Fungsi",
+   "options": "Fungsi"
+  },
+  {
+   "fetch_from": "program.program",
+   "fieldname": "keterangan_program",
+   "fieldtype": "Small Text",
+   "label": "Keterangan Program",
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-01-06 22:25:43.170189",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Sasarans",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "sasaran",
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

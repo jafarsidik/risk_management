@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_risk_management *.css
+recursive-include frappe_risk_management *.csv
+recursive-include frappe_risk_management *.html
+recursive-include frappe_risk_management *.ico
+recursive-include frappe_risk_management *.js
+recursive-include frappe_risk_management *.json
+recursive-include frappe_risk_management *.md
+recursive-include frappe_risk_management *.png
+recursive-include frappe_risk_management *.py
+recursive-include frappe_risk_management *.svg
+recursive-include frappe_risk_management *.txt
+recursive-exclude frappe_risk_management *.pyc
