@@ -7,6 +7,8 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "kategori_risiko",
+  "tipe_risiko",
   "risiko",
   "ketarangan"
  ],
@@ -28,11 +30,33 @@
    "fieldname": "ketarangan",
    "fieldtype": "Small Text",
    "label": "Ketarangan"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kategori Risiko",
+   "options": "Kategori Risiko",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tipe Risiko",
+   "options": "Tipe Risiko",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-10 22:16:45.176303",
+ "modified": "2022-01-18 10:26:43.834127",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "Risiko",
@@ -52,7 +76,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

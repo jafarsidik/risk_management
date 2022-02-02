@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:penyebab",
+ "autoname": "format:PB{#####}",
  "creation": "2022-01-10 22:27:36.095417",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -13,19 +13,21 @@
   {
    "fieldname": "penyebab",
    "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Penyebab",
-   "options": "Penyebab Child",
-   "unique": 1
+   "options": "Penyebab"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-01-10 22:27:36.095417",
+ "modified": "2022-02-01 13:16:22.888550",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "Penyebab Child",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

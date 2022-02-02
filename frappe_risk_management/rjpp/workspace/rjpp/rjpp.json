@@ -12,16 +12,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tugas",
-   "link_count": 0,
-   "link_to": "Tugas",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "KK-01-SASARAN",
    "link_count": 4,
    "onboard": 0,
@@ -60,16 +50,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Tugas",
-   "link_count": 0,
-   "link_to": "Tugas",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "KK-02-KONTEKS",
    "link_count": 1,
    "onboard": 0,
@@ -80,13 +60,13 @@
    "is_query_report": 0,
    "label": "Penetapan Konteks",
    "link_count": 0,
-   "link_to": "About Us Settings",
+   "link_to": "Penetapan Konteks",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-01-06 03:22:09.700157",
+ "modified": "2022-01-12 00:34:30.989854",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "RJPP",
@@ -96,5 +76,5 @@
  "roles": [],
  "sequence_id": 1,
  "shortcuts": [],
- "title": "Kertas Kerja"
+ "title": "Proses Manajemen Risiko"
 }

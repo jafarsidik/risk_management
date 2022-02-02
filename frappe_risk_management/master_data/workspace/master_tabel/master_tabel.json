@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Tingkat\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kriteria &amp; Skala\",\"col\":4}}]",
  "creation": "2022-01-04 13:47:28.880924",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -98,9 +98,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Perusahaan",
+   "label": "Corporate",
    "link_count": 0,
-   "link_to": "Perusahaan",
+   "link_to": "Corporate",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -212,9 +212,105 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tingkat",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tingkat Kodefiksi",
+   "link_count": 0,
+   "link_to": "Tingkat Kodefikasi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tingkat Mungkin x Dampak",
+   "link_count": 0,
+   "link_to": "Tingkat Mungkin x Dampak",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kriteria &amp; Skala",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Penyebab",
+   "link_count": 0,
+   "link_to": "Penyebab",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kriteria Kemungkinan",
+   "link_count": 0,
+   "link_to": "Kriteria Kemungkinan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skala Kemungkinan",
+   "link_count": 0,
+   "link_to": "Skala Kemungkinan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Dampak",
+   "link_count": 0,
+   "link_to": "Dampak",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kriteria Dampak",
+   "link_count": 0,
+   "link_to": "Kriteria Dampak",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skala Dampak",
+   "link_count": 0,
+   "link_to": "Skala Dampak",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-01-06 04:12:41.585728",
+ "modified": "2022-02-02 09:53:43.504500",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Master Tabel",
@@ -222,7 +318,7 @@
  "parent_page": "",
  "public": 1,
  "roles": [],
- "sequence_id": 10,
+ "sequence_id": 12,
  "shortcuts": [],
  "title": "Master Tabel"
 }

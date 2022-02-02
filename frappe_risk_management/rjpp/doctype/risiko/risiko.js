@@ -5,4 +5,14 @@ frappe.ui.form.on('Risiko', {
 	// refresh: function(frm) {
 
 	// }
+	kategori_risiko: function(frm) {
+		frm.set_query("tipe_risiko", function() {	
+			return {
+				"filters": {
+					"kategori_risiko": frm.doc.kategori_risiko
+				}
+			};
+		});
+    	frm.refresh_field("tipe_risiko");
+	}
 });

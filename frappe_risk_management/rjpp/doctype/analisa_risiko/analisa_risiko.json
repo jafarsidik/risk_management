@@ -1,0 +1,264 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:risiko",
+ "creation": "2022-01-18 10:44:23.797204",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "penetapan_konteks_section",
+  "html_1",
+  "section_break_36",
+  "data_penetapan_konteks",
+  "code_kegiatan",
+  "section_break_3",
+  "data_identifikasi_risiko",
+  "column_break_7",
+  "data_sasaran",
+  "section_break_15",
+  "konteks_internal",
+  "column_break_16",
+  "konteks_external",
+  "identifikasi_risiko_section",
+  "risiko",
+  "tipe_risiko",
+  "kategori_risiko",
+  "penyebab",
+  "column_break_18",
+  "dampak",
+  "section_break_20",
+  "kriteria_kemungkinan_inherent",
+  "skala_kemungkinan",
+  "probabilitas_kemungkinan",
+  "tingkat_kemungkinan_inherent",
+  "column_break_25",
+  "kriteria_dampak_inherent",
+  "skala_dampak",
+  "probabilitas_dampak",
+  "tingkat_dampak_inherent",
+  "section_break_30",
+  "tingkat_risiko_inherent_mungkin_x_dampak",
+  "column_break_33",
+  "tingkat_risiko_inherent_kodifikasi"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_sasaran",
+   "fieldtype": "HTML",
+   "label": "Data Sasaran"
+  },
+  {
+   "fieldname": "html_1",
+   "fieldtype": "HTML",
+   "options": "\nPenetapan konteks bertujuan untuk menganalisa kondisi faktor external dan internal yang dapat memicu terjadinya peristiwa yang mungkin terjadi dan dampak negatif terhadap pencapaian sasaran (Risiko)."
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "konteks_internal",
+   "fieldtype": "Table",
+   "label": "Konteks Internal",
+   "options": "Penetapan Konteks Internal Child"
+  },
+  {
+   "bold": 1,
+   "fieldname": "data_penetapan_konteks",
+   "fieldtype": "Link",
+   "label": "Identifiakasi Risiko",
+   "options": "Penetapan Konteks"
+  },
+  {
+   "fetch_from": "data_penetapan_konteks.code_kegiatan",
+   "fieldname": "code_kegiatan",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "options": "Kegiatans"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "konteks_external",
+   "fieldtype": "Table",
+   "label": "Konteks External",
+   "options": "Penetapan Konteks External Child"
+  },
+  {
+   "fieldname": "identifikasi_risiko_section",
+   "fieldtype": "Section Break",
+   "label": "Identifikasi Risiko"
+  },
+  {
+   "fieldname": "data_identifikasi_risiko",
+   "fieldtype": "HTML",
+   "label": "Data Identifikasi Risiko"
+  },
+  {
+   "fetch_from": "data_penetapan_konteks.risiko",
+   "fieldname": "risiko",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "unique": 1
+  },
+  {
+   "fetch_from": "data_penetapan_konteks.tipe_risiko",
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "data_penetapan_konteks.kategori_risiko",
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fieldname": "penetapan_konteks_section",
+   "fieldtype": "Section Break",
+   "label": "Konteks"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "penyebab",
+   "fieldtype": "Table",
+   "label": "Penyebab",
+   "options": "Penyebab Child"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dampak",
+   "fieldtype": "Table",
+   "label": "Dampak",
+   "options": "Dampak Child"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kriteria_kemungkinan_inherent",
+   "fieldtype": "Link",
+   "label": "Kriteria Kemungkinan (INHERENT)",
+   "options": "Kriteria Kemungkinan"
+  },
+  {
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala Kemungkinan",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fetch_from": "skala_kemungkinan.probabilitas",
+   "fieldname": "probabilitas_kemungkinan",
+   "fieldtype": "Data",
+   "label": "Probabilitas Kemungkinan",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "skala_kemungkinan.tingkat_kemungkinan",
+   "fieldname": "tingkat_kemungkinan_inherent",
+   "fieldtype": "Data",
+   "label": "Tingkat Kemungkinan (INHERENT)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kriteria_dampak_inherent",
+   "fieldtype": "Link",
+   "label": "Kriteria Dampak (INHERENT)",
+   "options": "Kriteria Dampak"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala Dampak",
+   "options": "Skala Dampak"
+  },
+  {
+   "fetch_from": "skala_dampak.probabilitas",
+   "fieldname": "probabilitas_dampak",
+   "fieldtype": "Data",
+   "label": "Probabilitas Dampak",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "skala_dampak.tingkat_dampak",
+   "fieldname": "tingkat_dampak_inherent",
+   "fieldtype": "Data",
+   "label": "Tingkat Dampak (INHERENT)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break",
+   "label": "TINGKAT RISIKO (INHERENT )"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tingkat_risiko_inherent_mungkin_x_dampak",
+   "fieldtype": "Data",
+   "label": "TINGKAT RISIKO INHERENT (MUNGKIN x DAMPAK)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tingkat_risiko_inherent_kodifikasi",
+   "fieldtype": "Data",
+   "label": "TINGKAT RISIKO INHERENT (KODIFIKASI)",
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-02-01 19:10:13.679805",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Analisa Risiko",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

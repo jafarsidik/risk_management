@@ -27,6 +27,7 @@
    "label": "Description"
   },
   {
+   "allow_in_quick_entry": 1,
    "fieldname": "singkatan",
    "fieldtype": "Data",
    "in_filter": 1,
@@ -39,7 +40,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-06 23:22:30.371592",
+ "modified": "2022-01-11 08:13:38.943002",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Direktorat",

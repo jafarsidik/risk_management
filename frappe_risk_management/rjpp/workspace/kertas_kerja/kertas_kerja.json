@@ -1,0 +1,134 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-01-SASARAN\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-02 KONTEKS DAN IDENTIFIKASI RISIKO\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-03-ANALISA RISIKO\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-04-EVALUASI RISIK0\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-05 PENANGANAN RISIKO\",\"col\":4}}]",
+ "creation": "2022-01-12 00:41:29.688902",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Kertas Kerja",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KK-01-SASARAN",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program",
+   "link_count": 0,
+   "link_to": "Program",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sasaran",
+   "link_count": 0,
+   "link_to": "Sasarans",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kegiatan",
+   "link_count": 0,
+   "link_to": "Kegiatans",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KK-03-ANALISA RISIKO",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Analisa Risiko",
+   "link_count": 0,
+   "link_to": "Analisa Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KK-04-EVALUASI RISIK0",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Evaluasi Risiko",
+   "link_count": 0,
+   "link_to": "Transaction Log Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KK-05 PENANGANAN RISIKO",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Penanganan Risiko",
+   "link_count": 0,
+   "link_to": "About Us Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "KK-02 KONTEKS DAN IDENTIFIKASI RISIKO",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Konteks dan Identifikasi Risiko",
+   "link_count": 0,
+   "link_to": "Penetapan Konteks",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-02-02 09:52:15.750742",
+ "modified_by": "Administrator",
+ "module": "RJPP",
+ "name": "Kertas Kerja",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 9,
+ "shortcuts": [],
+ "title": "Kertas Kerja"
+}

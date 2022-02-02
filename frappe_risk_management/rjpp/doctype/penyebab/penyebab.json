@@ -24,7 +24,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-01-10 22:26:33.649558",
+ "modified": "2022-01-11 08:35:15.198099",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "Penyebab",
@@ -47,5 +47,8 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }
