@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-14 21:09:37.897580",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "aktivitas",
+  "direktorat_owber",
+  "divisi_kerja",
+  "column_break_4",
+  "indikator_kinerja",
+  "satuan_ik",
+  "target_ik",
+  "sumber_risiko_eksternal_section",
+  "sumber_risiko_eksternal",
+  "faktor_external",
+  "parameter_external",
+  "deskripsi_external",
+  "sumber_risiko_internal_column",
+  "faktor_internal",
+  "parameter_internal",
+  "deskripsi_internal"
+ ],
+ "fields": [
+  {
+   "fieldname": "aktivitas",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Aktivitas",
+   "reqd": 1
+  },
+  {
+   "fieldname": "direktorat_owber",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Direktorat Owner",
+   "options": "Direktorat",
+   "reqd": 1
+  },
+  {
+   "fieldname": "divisi_kerja",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Divisi Kerja",
+   "options": "Divisi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "indikator_kinerja",
+   "fieldtype": "Data",
+   "label": "Indikator Kinerja"
+  },
+  {
+   "fieldname": "satuan_ik",
+   "fieldtype": "Data",
+   "label": "Satuan IK"
+  },
+  {
+   "fieldname": "target_ik",
+   "fieldtype": "Data",
+   "label": "Target IK"
+  },
+  {
+   "fieldname": "sumber_risiko_eksternal_section",
+   "fieldtype": "Section Break",
+   "label": "SUMBER RISIKO"
+  },
+  {
+   "fieldname": "faktor_external",
+   "fieldtype": "Link",
+   "label": "Faktor External",
+   "options": "Faktor External"
+  },
+  {
+   "fieldname": "parameter_external",
+   "fieldtype": "Link",
+   "label": "Parameter External",
+   "options": "Parameter External"
+  },
+  {
+   "fieldname": "deskripsi_external",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi External"
+  },
+  {
+   "bold": 1,
+   "fieldname": "sumber_risiko_internal_column",
+   "fieldtype": "Column Break",
+   "label": "INTERNAL"
+  },
+  {
+   "fieldname": "faktor_internal",
+   "fieldtype": "Link",
+   "label": "Faktor Internal",
+   "options": "Faktor Internal"
+  },
+  {
+   "fieldname": "parameter_internal",
+   "fieldtype": "Link",
+   "label": "Parameter Internal",
+   "options": "Parameter Internal"
+  },
+  {
+   "fieldname": "deskripsi_internal",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi Internal"
+  },
+  {
+   "bold": 1,
+   "fieldname": "sumber_risiko_eksternal",
+   "fieldtype": "Column Break",
+   "label": "EKSTERNAL"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-14 22:59:18.385773",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Konteks dan Identifikasi Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

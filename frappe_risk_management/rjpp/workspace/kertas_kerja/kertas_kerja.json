@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-01-SASARAN\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-02 KONTEKS DAN IDENTIFIKASI RISIKO\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-03-ANALISA RISIKO\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-04-EVALUASI RISIK0\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"KK-05 PENANGANAN RISIKO\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kertas Kerja\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Risk Register\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kodefikasi\",\"col\":4}}]",
  "creation": "2022-01-12 00:41:29.688902",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -12,15 +12,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "KK-01-SASARAN",
-   "link_count": 3,
+   "label": "Kertas Kerja",
+   "link_count": 6,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Program",
+   "label": "KK-01-Sasaran-Program",
    "link_count": 0,
    "link_to": "Program",
    "link_type": "DocType",
@@ -30,7 +30,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Sasaran",
+   "label": "KK-01-Sasaran-Sasaran",
    "link_count": 0,
    "link_to": "Sasarans",
    "link_type": "DocType",
@@ -40,7 +40,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Kegiatan",
+   "label": "KK-01-Sasaran-Kegiatan",
    "link_count": 0,
    "link_to": "Kegiatans",
    "link_type": "DocType",
@@ -50,15 +50,17 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "KK-03-ANALISA RISIKO",
-   "link_count": 1,
+   "label": "KK-02-Konteks &amp; Identifikasi Risiko",
+   "link_count": 0,
+   "link_to": "Penetapan Konteks",
+   "link_type": "DocType",
    "onboard": 0,
-   "type": "Card Break"
+   "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Analisa Risiko",
+   "label": "KK-03-04-Analisa &amp; Evaluasi Risiko",
    "link_count": 0,
    "link_to": "Analisa Risiko",
    "link_type": "DocType",
@@ -68,35 +70,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "KK-04-EVALUASI RISIK0",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Evaluasi Risiko",
+   "label": "KK-05-Penanganan Risiko",
    "link_count": 0,
-   "link_to": "Transaction Log Report",
-   "link_type": "Report",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "KK-05 PENANGANAN RISIKO",
-   "link_count": 1,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Penanganan Risiko",
-   "link_count": 0,
-   "link_to": "About Us Settings",
+   "link_to": "Penanganan",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -104,7 +80,45 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "KK-02 KONTEKS DAN IDENTIFIKASI RISIKO",
+   "label": "Risk Register",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risiko",
+   "link_count": 0,
+   "link_to": "Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Risiko",
+   "link_count": 0,
+   "link_to": "Tipe Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kategori Risiko",
+   "link_count": 0,
+   "link_to": "Kategori Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kodefikasi",
    "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
@@ -112,15 +126,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Konteks dan Identifikasi Risiko",
+   "label": "Kodefikasi",
    "link_count": 0,
-   "link_to": "Penetapan Konteks",
+   "link_to": "Kodefikasi",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-02-02 09:52:15.750742",
+ "modified": "2022-02-14 12:26:56.365734",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "Kertas Kerja",
@@ -130,5 +144,5 @@
  "roles": [],
  "sequence_id": 9,
  "shortcuts": [],
- "title": "Kertas Kerja"
+ "title": "Kertas Kerja Old"
 }

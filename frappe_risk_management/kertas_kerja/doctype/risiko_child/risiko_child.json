@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-15 15:53:06.712740",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risiko",
+  "kategori",
+  "tipe_risiko",
+  "risk_id",
+  "table_multiselect_5"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "kategori",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kategori Risiko",
+   "options": "Kategori Risiko"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tipe Risiko",
+   "options": "Tipe Risiko"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "risiko",
+   "fieldtype": "Small Text",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Peristiwa Risiko"
+  },
+  {
+   "fieldname": "risk_id",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Risk ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "table_multiselect_5",
+   "fieldtype": "Table",
+   "options": "Kemungkinan Child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-16 21:37:47.838288",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Risiko Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

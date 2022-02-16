@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-14 21:54:29.742450",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "existing_control_section",
+  "risk_kontrol",
+  "a__t",
+  "tingkat_penerapan",
+  "section_break_5",
+  "deskripsi",
+  "efektifitas_section",
+  "efektifitas_terhadap_kemungkinan_column",
+  "efektifitas_kemungkinan",
+  "skala_kemungkinan",
+  "nilai_kemungkinan",
+  "efektifitas_terhadap_dampak_column",
+  "efektifitas_dampak",
+  "skala_dampak",
+  "nilai_dampak",
+  "section_break_16",
+  "tingkat_risiko_current_column",
+  "mungkin_x_dampak_int",
+  "kodefikasi_int",
+  "perlakuan_penangan_risiko_column",
+  "mungkin_x_dampak_txt",
+  "kodefikasi_txt"
+ ],
+ "fields": [
+  {
+   "fieldname": "existing_control_section",
+   "fieldtype": "Section Break",
+   "label": "Existing Control"
+  },
+  {
+   "fieldname": "risk_kontrol",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Risk Kontrol",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "a__t",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "A / T",
+   "options": "Ada\nTidak Ada",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deskripsi",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi"
+  },
+  {
+   "fieldname": "tingkat_penerapan",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tingkat Penerapan",
+   "options": "1% s/d 25%\n26% s/d 50%\n51% s/d 75%\n76% s/d 100%",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "efektifitas_section",
+   "fieldtype": "Section Break",
+   "label": "Efektifitas"
+  },
+  {
+   "fieldname": "efektifitas_terhadap_kemungkinan_column",
+   "fieldtype": "Column Break",
+   "label": "Efektifitas Terhadap Kemungkinan"
+  },
+  {
+   "fieldname": "efektifitas_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Efektifitas",
+   "options": "Efektifitas"
+  },
+  {
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fieldname": "efektifitas_terhadap_dampak_column",
+   "fieldtype": "Column Break",
+   "label": "Efektifitas Terhadap Dampak"
+  },
+  {
+   "fieldname": "efektifitas_dampak",
+   "fieldtype": "Link",
+   "label": "Efektifitas",
+   "options": "Efektifitas"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Dampak"
+  },
+  {
+   "fieldname": "nilai_kemungkinan",
+   "fieldtype": "Data",
+   "label": "Nilai"
+  },
+  {
+   "fieldname": "nilai_dampak",
+   "fieldtype": "Data",
+   "label": "Nilai"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tingkat_risiko_current_column",
+   "fieldtype": "Column Break",
+   "label": "Tingkat Risiko Current"
+  },
+  {
+   "fieldname": "mungkin_x_dampak_int",
+   "fieldtype": "Data",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "kodefikasi_int",
+   "fieldtype": "Data",
+   "label": "Kodefikasi"
+  },
+  {
+   "fieldname": "perlakuan_penangan_risiko_column",
+   "fieldtype": "Column Break",
+   "label": "Perlakuan Penangan Risiko"
+  },
+  {
+   "fieldname": "mungkin_x_dampak_txt",
+   "fieldtype": "Data",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "kodefikasi_txt",
+   "fieldtype": "Data",
+   "label": "Kodefikasi"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-14 22:15:42.572598",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Evaluasi Risiko Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

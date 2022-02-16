@@ -1,38 +1,33 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:direktorat",
- "creation": "2022-01-04 04:12:01.039776",
+ "autoname": "field:efektifitas",
+ "creation": "2022-02-03 07:01:54.518191",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "direktorat",
-  "description"
+  "efektifitas"
  ],
  "fields": [
   {
    "allow_in_quick_entry": 1,
-   "fieldname": "direktorat",
+   "fieldname": "efektifitas",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_list_view": 1,
-   "label": "Direktorat",
+   "in_standard_filter": 1,
+   "label": "Efektifitas",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-15 17:26:40.471053",
+ "modified": "2022-02-03 07:02:12.541883",
  "modified_by": "Administrator",
  "module": "Master Data",
- "name": "Direktorat",
- "name_case": "Title Case",
+ "name": "Efektifitas",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

@@ -1,9 +1,8 @@
 {
  "actions": [],
- "allow_auto_repeat": 1,
  "allow_rename": 1,
- "autoname": "format:ASR{######}",
- "creation": "2022-01-18 10:44:23.797204",
+ "autoname": "field:risiko",
+ "creation": "2022-02-07 09:41:02.660978",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -59,14 +58,50 @@
  ],
  "fields": [
   {
-   "fieldname": "data_sasaran",
-   "fieldtype": "HTML",
-   "label": "Data Sasaran"
+   "fieldname": "penetapan_konteks_section",
+   "fieldtype": "Section Break",
+   "label": "Konteks"
   },
   {
    "fieldname": "html_1",
    "fieldtype": "HTML",
    "options": "\nPenetapan konteks bertujuan untuk menganalisa kondisi faktor external dan internal yang dapat memicu terjadinya peristiwa yang mungkin terjadi dan dampak negatif terhadap pencapaian sasaran (Risiko)."
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "data_penetapan_konteks",
+   "fieldtype": "Link",
+   "label": "Identifiakasi Risiko",
+   "options": "Penetapan Konteks"
+  },
+  {
+   "fetch_from": "data_penetapan_konteks.code_kegiatan",
+   "fieldname": "code_kegiatan",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "options": "Kegiatans"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_identifikasi_risiko",
+   "fieldtype": "HTML",
+   "label": "Data Identifikasi Risiko"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_sasaran",
+   "fieldtype": "HTML",
+   "label": "Data Sasaran"
   },
   {
    "fieldname": "section_break_15",
@@ -77,23 +112,6 @@
    "fieldtype": "Table",
    "label": "Konteks Internal",
    "options": "Penetapan Konteks Internal Child"
-  },
-  {
-   "fieldname": "data_penetapan_konteks",
-   "fieldtype": "Link",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Identifiakasi Risiko",
-   "options": "Penetapan Konteks",
-   "reqd": 1
-  },
-  {
-   "fetch_from": "data_penetapan_konteks.code_kegiatan",
-   "fieldname": "code_kegiatan",
-   "fieldtype": "Link",
-   "hidden": 1,
-   "options": "Kegiatans"
   },
   {
    "fieldname": "column_break_16",
@@ -109,11 +127,6 @@
    "fieldname": "identifikasi_risiko_section",
    "fieldtype": "Section Break",
    "label": "Analisa / Identifikasi  Risiko"
-  },
-  {
-   "fieldname": "data_identifikasi_risiko",
-   "fieldtype": "HTML",
-   "label": "Data Identifikasi Risiko"
   },
   {
    "fetch_from": "data_penetapan_konteks.risiko",
@@ -135,23 +148,10 @@
    "hidden": 1
   },
   {
-   "fieldname": "penetapan_konteks_section",
-   "fieldtype": "Section Break",
-   "label": "Konteks"
-  },
-  {
-   "fieldname": "section_break_3",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "penyebab",
    "fieldtype": "Table",
    "label": "Penyebab",
    "options": "Penyebab Risiko Child"
-  },
-  {
-   "fieldname": "column_break_7",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "column_break_18",
@@ -229,10 +229,6 @@
    "label": "TINGKAT RISIKO (INHERENT )"
   },
   {
-   "fieldname": "section_break_36",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "tingkat_risiko_inherent_mungkin_x_dampak",
    "fieldtype": "Data",
    "label": "TINGKAT RISIKO INHERENT (MUNGKIN x DAMPAK)",
@@ -265,6 +261,15 @@
    "options": "Ada\nTidak Ada"
   },
   {
+   "fieldname": "deskripsi",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
    "fieldname": "tingkat_penerapan",
    "fieldtype": "Data",
    "label": "Tingkat Penerapan"
@@ -280,15 +285,6 @@
    "fieldtype": "Link",
    "label": "Efektifitas Dampak",
    "options": "Efektifitas"
-  },
-  {
-   "fieldname": "column_break_41",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "deskripsi",
-   "fieldtype": "Small Text",
-   "label": "Deskripsi"
   },
   {
    "fieldname": "curret_residual_risk_section",
@@ -323,12 +319,12 @@
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-15 16:55:32.019169",
+ "modified": "2022-02-15 16:55:31.665540",
  "modified_by": "Administrator",
  "module": "RJPP",
- "name": "Analisa Risiko",
+ "name": "Penanganan",
  "name_case": "Title Case",
- "naming_rule": "Expression",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -345,9 +341,8 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "ASC",
+ "sort_order": "DESC",
  "states": [],
- "title_field": "data_penetapan_konteks",
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1

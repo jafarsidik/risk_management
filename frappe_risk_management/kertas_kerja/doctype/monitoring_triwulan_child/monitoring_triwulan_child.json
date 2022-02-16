@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-14 22:52:53.168869",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tindak_penanganan",
+  "column_break_5",
+  "column_break_3",
+  "hambatan_mitigasi",
+  "column_break_4",
+  "output",
+  "section_break_13",
+  "nilai_kemungkinan_column",
+  "skala_kemungkinan",
+  "nilai_kemungkinan",
+  "nilai_dampak_column",
+  "skala_dampak",
+  "nilai_dampak",
+  "tingkat_risiko_target_section",
+  "mungkin_x_dampak",
+  "column_break_22",
+  "kodefikasi"
+ ],
+ "fields": [
+  {
+   "fieldname": "tindak_penanganan",
+   "fieldtype": "Text Editor",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Realisasi Tindakan Mitigasi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sesuai / Tidak",
+   "options": "Sesuai\nTidak",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hambatan_mitigasi",
+   "fieldtype": "Text Editor",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Hambatan Mitigasi"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "output",
+   "fieldtype": "Text Editor",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Rencana Mitigasi Triwulan Selanjutnya"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nilai_kemungkinan_column",
+   "fieldtype": "Column Break",
+   "label": "Kemungkinan"
+  },
+  {
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fieldname": "nilai_kemungkinan",
+   "fieldtype": "Data",
+   "label": "TK"
+  },
+  {
+   "fieldname": "nilai_dampak_column",
+   "fieldtype": "Column Break",
+   "label": "Dampak"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Dampak"
+  },
+  {
+   "fieldname": "nilai_dampak",
+   "fieldtype": "Data",
+   "label": "TK"
+  },
+  {
+   "fieldname": "tingkat_risiko_target_section",
+   "fieldtype": "Section Break",
+   "label": "TIngkat Risiko Target"
+  },
+  {
+   "fieldname": "mungkin_x_dampak",
+   "fieldtype": "Data",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kodefikasi",
+   "fieldtype": "Data",
+   "label": "Kodefikasi"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-14 22:59:02.518562",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Monitoring Triwulan Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

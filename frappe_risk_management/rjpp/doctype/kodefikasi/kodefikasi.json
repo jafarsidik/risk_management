@@ -1,38 +1,52 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:direktorat",
- "creation": "2022-01-04 04:12:01.039776",
+ "autoname": "field:no",
+ "creation": "2022-02-08 12:28:09.035735",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "direktorat",
-  "description"
+  "no",
+  "tingkat_mungkin_x_dampak",
+  "tingkat_kodifikasi"
  ],
  "fields": [
   {
-   "allow_in_quick_entry": 1,
-   "fieldname": "direktorat",
+   "fieldname": "no",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_list_view": 1,
-   "label": "Direktorat",
+   "in_standard_filter": 1,
+   "label": "No",
    "reqd": 1,
    "unique": 1
   },
   {
-   "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "Description"
+   "fieldname": "tingkat_mungkin_x_dampak",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "TINGKAT (MUNGKIN x DAMPAK)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tingkat_kodifikasi",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "TINGKAT (KODIFIKASI)",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-15 17:26:40.471053",
+ "modified": "2022-02-08 12:30:24.997817",
  "modified_by": "Administrator",
- "module": "Master Data",
- "name": "Direktorat",
- "name_case": "Title Case",
+ "module": "RJPP",
+ "name": "Kodefikasi",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

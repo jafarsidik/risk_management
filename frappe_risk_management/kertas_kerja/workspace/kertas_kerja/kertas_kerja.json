@@ -1,0 +1,52 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Program Kertas Kerja\",\"col\":4}}]",
+ "creation": "2022-02-14 23:07:52.423142",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "label": "Kertas Kerja",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Kertas Kerja",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kertas Kerja V1",
+   "link_count": 0,
+   "link_to": "Program Kertas Kerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kertas Kerja V2",
+   "link_count": 0,
+   "link_to": "Program Kertas Kerja V2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-02-15 09:10:19.355941",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Kertas Kerja",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "roles": [],
+ "sequence_id": 1,
+ "shortcuts": [],
+ "title": "Kertas Kerja"
+}

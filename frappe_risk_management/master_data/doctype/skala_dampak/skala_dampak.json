@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:skala_dampak",
+ "autoname": "format:SD{#####}",
  "creation": "2022-02-01 10:12:05.944041",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -45,11 +45,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-02 09:35:55.113825",
+ "modified": "2022-02-15 16:32:18.123844",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Skala Dampak",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -66,7 +66,9 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "skala_dampak",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "skala_dampak"
 }

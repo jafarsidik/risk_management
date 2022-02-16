@@ -34,25 +34,23 @@ frappe.ui.form.on('Analisa Risiko', {
 	skala_kemungkinan: function(frm,cdt,cdn) {
 	
 		var x = frm.doc.probabilitas_kemungkinan*frm.doc.probabilitas_dampak;
-		frappe.db.get_doc('Tingkat Mungkin x Dampak', null,{ no: x }).then(result => {
+		frappe.db.get_doc('Kodefikasi', null,{ no: x }).then(result => {
 			frm.refresh_field("tingkat_risiko_inherent_mungkin_x_dampak");		
-			frm.set_value('tingkat_risiko_inherent_mungkin_x_dampak', result.name);
-		});
-		frappe.db.get_doc('Tingkat Kodefikasi', null,{ no: x }).then(result => {
+			frm.set_value('tingkat_risiko_inherent_mungkin_x_dampak', result.no+' - '+result.tingkat_mungkin_x_dampak);
 			frm.refresh_field("tingkat_risiko_inherent_kodifikasi");		
-			frm.set_value('tingkat_risiko_inherent_kodifikasi', result.name);
+			frm.set_value('tingkat_risiko_inherent_kodifikasi', result.no+' - '+result.tingkat_kodifikasi);
 		});
+		
 	},
 	skala_dampak: function(frm,cdt,cdn) {
 		var x = frm.doc.probabilitas_kemungkinan*frm.doc.probabilitas_dampak;
-		frappe.db.get_doc('Tingkat Mungkin x Dampak', null,{ no: x }).then(result => {
+		frappe.db.get_doc('Kodefikasi', null,{ no: x }).then(result => {
 			frm.refresh_field("tingkat_risiko_inherent_mungkin_x_dampak");		
-			frm.set_value('tingkat_risiko_inherent_mungkin_x_dampak', result.name);
-		});
-		frappe.db.get_doc('Tingkat Kodefikasi', null,{ no: x }).then(result => {
+			frm.set_value('tingkat_risiko_inherent_mungkin_x_dampak', result.no+' - '+result.tingkat_mungkin_x_dampak);
 			frm.refresh_field("tingkat_risiko_inherent_kodifikasi");		
-			frm.set_value('tingkat_risiko_inherent_kodifikasi', result.name);
+			frm.set_value('tingkat_risiko_inherent_kodifikasi', result.no+' - '+result.tingkat_kodifikasi);
 		});
+	
 	},
 	data_penetapan_konteks:function(frm,cdt, cdn) {
 		frappe.db.get_doc('Penetapan Konteks', frm.doc.data_penetapan_konteks).then(result => {

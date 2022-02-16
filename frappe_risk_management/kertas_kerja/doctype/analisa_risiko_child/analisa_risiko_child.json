@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-14 21:25:17.029775",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "risk_id",
+  "peristiwa_risiko",
+  "column_break_3",
+  "kategori_risiko",
+  "tipe_risiko",
+  "column_break_5",
+  "penyebab_risiko",
+  "column_break_8",
+  "penjelasan_dampak_risiko",
+  "section_break_10",
+  "kemungkinan_column",
+  "tipe_kemungkinan",
+  "skala_kemungkinan",
+  "tingkat_kemungkinan",
+  "dampak_column",
+  "tipe_dampak",
+  "skala_dampak",
+  "tingkat_dampak",
+  "tingkat_risiko_inherent_section",
+  "mungkin_x_dampak",
+  "column_break_19",
+  "kodefikasi"
+ ],
+ "fields": [
+  {
+   "fieldname": "peristiwa_risiko",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Peristiwa Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kategori Risiko",
+   "options": "Kategori Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tipe Risiko",
+   "options": "Tipe Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "penyebab_risiko",
+   "fieldtype": "Text Editor",
+   "label": "Penyebab Risiko"
+  },
+  {
+   "fieldname": "risk_id",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Risk ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "penjelasan_dampak_risiko",
+   "fieldtype": "Text Editor",
+   "label": "Penjelasan Dampak Risiko"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "kemungkinan_column",
+   "fieldtype": "Column Break",
+   "label": "Kemungkinan"
+  },
+  {
+   "fieldname": "tipe_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Tipe",
+   "options": "Kriteria Kemungkinan"
+  },
+  {
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fieldname": "dampak_column",
+   "fieldtype": "Column Break",
+   "label": "Dampak"
+  },
+  {
+   "fieldname": "tipe_dampak",
+   "fieldtype": "Link",
+   "label": "Tipe",
+   "options": "Kriteria Dampak"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Dampak"
+  },
+  {
+   "fieldname": "tingkat_risiko_inherent_section",
+   "fieldtype": "Section Break",
+   "label": "Tingkat Risiko Inherent"
+  },
+  {
+   "fieldname": "mungkin_x_dampak",
+   "fieldtype": "Data",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kodefikasi",
+   "fieldtype": "Data",
+   "label": "Kodefikasi"
+  },
+  {
+   "fieldname": "tingkat_kemungkinan",
+   "fieldtype": "Data",
+   "label": "Tingkat Kemungkinan"
+  },
+  {
+   "fieldname": "tingkat_dampak",
+   "fieldtype": "Data",
+   "label": "Tingkat Dampak"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-14 21:45:17.206820",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Analisa Risiko Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

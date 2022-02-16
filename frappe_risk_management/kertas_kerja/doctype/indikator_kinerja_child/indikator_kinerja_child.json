@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-15 15:40:02.143169",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ik",
+  "satuan_ik",
+  "target_ik"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ik",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Indikator Kinerja",
+   "options": "Indikator Kinerja"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "satuan_ik",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Satuan IK",
+   "options": "Satuan Indikator Kinerja"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "target_ik",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Target IK"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-15 15:41:00.906464",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Indikator Kinerja Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-14 22:35:44.194629",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pic_penanganan_risiko",
+  "divisi_terkait",
+  "column_break_3",
+  "biaya_penanganan",
+  "rencana_tindakan_penanganan_section",
+  "tindak_penanganan",
+  "column_break_5",
+  "output",
+  "section_break_9",
+  "base_line_mulai",
+  "column_break_11",
+  "base_line_selesai",
+  "section_break_13",
+  "nilai_kemungkinan_column",
+  "skala_kemungkinan",
+  "nilai_kemungkinan",
+  "nilai_dampak_column",
+  "skala_dampak",
+  "nilai_dampak",
+  "tingkat_risiko_target_section",
+  "mungkin_x_dampak",
+  "column_break_22",
+  "kodefikasi"
+ ],
+ "fields": [
+  {
+   "fieldname": "pic_penanganan_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "PIC Penanganan Risiko",
+   "options": "PIC",
+   "reqd": 1
+  },
+  {
+   "fieldname": "divisi_terkait",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Divisi Terkait",
+   "options": "Divisi",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rencana_tindakan_penanganan_section",
+   "fieldtype": "Section Break",
+   "label": "Rencana Tindakan Penanganan"
+  },
+  {
+   "fieldname": "tindak_penanganan",
+   "fieldtype": "Text Editor",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tindak Penanganan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "output",
+   "fieldtype": "Text Editor",
+   "label": "Output"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "biaya_penanganan",
+   "fieldtype": "Currency",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Biaya Penanganan"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "base_line_mulai",
+   "fieldtype": "Date",
+   "label": "Base Line Mulai"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "base_line_selesai",
+   "fieldtype": "Date",
+   "label": "Base Line Selesai"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "nilai_kemungkinan_column",
+   "fieldtype": "Column Break",
+   "label": "Nilai Kemungkinan"
+  },
+  {
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fieldname": "nilai_kemungkinan",
+   "fieldtype": "Data",
+   "label": "Nilai"
+  },
+  {
+   "fieldname": "nilai_dampak_column",
+   "fieldtype": "Column Break",
+   "label": "Nilai Dampak"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala",
+   "options": "Skala Dampak"
+  },
+  {
+   "fieldname": "nilai_dampak",
+   "fieldtype": "Data",
+   "label": "Nilai"
+  },
+  {
+   "fieldname": "tingkat_risiko_target_section",
+   "fieldtype": "Section Break",
+   "label": "TIngkat Risiko Target"
+  },
+  {
+   "fieldname": "mungkin_x_dampak",
+   "fieldtype": "Data",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kodefikasi",
+   "fieldtype": "Data",
+   "label": "Kodefikasi"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-14 22:47:49.030055",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Penanganan Risiko Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

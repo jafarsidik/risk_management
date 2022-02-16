@@ -1,0 +1,36 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-15 15:29:06.263158",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "direktorat_owner"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "direktorat_owner",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Direktorat Owner",
+   "options": "Direktorat",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-15 15:29:06.263158",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Direktorat Owner Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
