@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-17 12:11:25.260856",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tindakan_penanganan",
+  "output"
+ ],
+ "fields": [
+  {
+   "fieldname": "tindakan_penanganan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tindakan Penanganan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "output",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Output"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-17 12:11:25.260856",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Rencana Tingkat Penanganan Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

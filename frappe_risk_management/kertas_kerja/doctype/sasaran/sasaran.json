@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{#####}",
+ "creation": "2022-03-17 21:33:25.291759",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_kajian_risiko",
+  "html_kajian_risiko",
+  "sasaran_section",
+  "organisasi",
+  "unit_kerja",
+  "direktorat_pemilik_sasaran",
+  "divisi_pemilik_sasaran",
+  "column_break_6",
+  "deskripsi_sasaran",
+  "section_break_9",
+  "indikator_kinerja_sasaran_iks",
+  "column_break_11",
+  "satuan_indikator_kinerja",
+  "column_break_13",
+  "target_iks"
+ ],
+ "fields": [
+  {
+   "fieldname": "id_kajian_risiko",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Kajian Risiko",
+   "options": "Kajian Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "html_kajian_risiko",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "sasaran_section",
+   "fieldtype": "Section Break",
+   "label": "Sasaran"
+  },
+  {
+   "fieldname": "organisasi",
+   "fieldtype": "Select",
+   "label": "Organisasi",
+   "options": "Holding\nSub Holding\nAnak Perusahaan\nCucu Perusahaan\nCicit Perusahaan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deskripsi_sasaran",
+   "fieldtype": "Text",
+   "label": "Deskripsi Sasaran",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unit_kerja",
+   "fieldtype": "Link",
+   "label": "Unit Kerja",
+   "options": "Unit Kerja"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "indikator_kinerja_sasaran_iks",
+   "fieldtype": "Link",
+   "label": "Indikator Kinerja Sasaran (IKS)",
+   "options": "Indikator Kinerja Sasaran"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "satuan_indikator_kinerja",
+   "fieldtype": "Link",
+   "label": "Satuan Indikator Kinerja",
+   "options": "Satuan Indikator Kinerja Sasaran"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_iks",
+   "fieldtype": "Data",
+   "label": "Target IKS"
+  },
+  {
+   "fieldname": "direktorat_pemilik_sasaran",
+   "fieldtype": "Link",
+   "label": "Direktorat Pemilik Sasaran",
+   "options": "Direktorat"
+  },
+  {
+   "fieldname": "divisi_pemilik_sasaran",
+   "fieldtype": "Link",
+   "label": "Divisi Pemilik Sasaran",
+   "options": "Divisi"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Kegiatans",
+   "link_fieldname": "sasaran"
+  }
+ ],
+ "modified": "2022-03-21 11:40:13.067813",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Sasaran",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "deskripsi_sasaran",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "deskripsi_sasaran",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

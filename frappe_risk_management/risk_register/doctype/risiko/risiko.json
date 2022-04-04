@@ -1,5 +1,8 @@
 {
  "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:risiko",
  "creation": "2022-01-10 22:15:53.142397",
@@ -7,34 +10,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "kategori_risiko",
-  "tipe_risiko",
   "risiko",
   "ketarangan"
  ],
  "fields": [
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "kategori_risiko",
-   "fieldtype": "Link",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Kategori Risiko",
-   "options": "Kategori Risiko",
-   "reqd": 1
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "tipe_risiko",
-   "fieldtype": "Link",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Tipe Risiko",
-   "options": "Tipe Risiko",
-   "reqd": 1
-  },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "risiko",
@@ -51,12 +30,15 @@
   {
    "fieldname": "ketarangan",
    "fieldtype": "Small Text",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Ketarangan"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-02 09:50:36.380426",
+ "modified": "2022-02-28 23:35:59.073708",
  "modified_by": "Administrator",
  "module": "Risk Register",
  "name": "Risiko",
@@ -76,6 +58,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

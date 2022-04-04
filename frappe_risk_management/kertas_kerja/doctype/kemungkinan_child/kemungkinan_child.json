@@ -3,12 +3,17 @@
  "allow_rename": 1,
  "creation": "2022-02-15 16:40:07.833821",
  "doctype": "DocType",
- "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "analisa_risiko_section",
+  "penyebab",
   "tipe",
   "skala",
-  "nilai"
+  "nilai",
+  "evaluasi_risiko_section",
+  "review_pengendalian_berjalan",
+  "efektifitas_pengendalian_berjalan",
+  "nilai_current"
  ],
  "fields": [
   {
@@ -18,32 +23,73 @@
    "in_filter": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Tipe",
+   "label": "Kriteria",
    "options": "Kriteria Kemungkinan"
   },
   {
    "allow_in_quick_entry": 1,
    "fieldname": "skala",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_filter": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Skala"
+   "label": "Skala",
+   "options": "Skala Kemungkinan"
   },
   {
    "allow_in_quick_entry": 1,
+   "fetch_from": "skala.nilai",
    "fieldname": "nilai",
    "fieldtype": "Int",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Nilai",
-   "non_negative": 1
+   "label": "Tingkat Kemungkinan ( Inherent )",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "penyebab",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Penyebab Risiko"
+  },
+  {
+   "fieldname": "analisa_risiko_section",
+   "fieldtype": "Section Break",
+   "label": "Analisa Risiko"
+  },
+  {
+   "fieldname": "evaluasi_risiko_section",
+   "fieldtype": "Section Break",
+   "label": "Evaluasi Risiko"
+  },
+  {
+   "fieldname": "review_pengendalian_berjalan",
+   "fieldtype": "Select",
+   "label": "Review Pengendalian Berjalan",
+   "options": "Tidak Ada\nKurang Lengkap\nLengkap : Pedoman Direksi, SOP, Instruksi Kerja, Formulir"
+  },
+  {
+   "fieldname": "efektifitas_pengendalian_berjalan",
+   "fieldtype": "Select",
+   "label": "Efektifitas Pengendalian Berjalan",
+   "options": "\nTidak Efektif\nCukup Efektif\nEfektif"
+  },
+  {
+   "fieldname": "nilai_current",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Tingkat Kemungkinan Berjalan ( Current )",
+   "non_negative": 1,
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-02-15 16:47:38.647068",
+ "modified": "2022-03-17 00:47:46.357016",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Kemungkinan Child",

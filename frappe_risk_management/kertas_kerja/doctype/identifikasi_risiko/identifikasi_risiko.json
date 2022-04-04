@@ -1,0 +1,134 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{risk_id}-{#####}",
+ "creation": "2022-03-15 01:46:11.588560",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "konteks",
+  "data_konteks",
+  "section_break_4",
+  "deskripsi_libraray",
+  "kategori_risiko",
+  "tipe_risiko",
+  "risk_id",
+  "column_break_4",
+  "deskripsi_risiko",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "deskripsi_libraray",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Risk Library",
+   "options": "Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deskripsi_risiko",
+   "fieldtype": "Text Editor",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Deskripsi Risiko"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kategori Risiko",
+   "options": "Kategori Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tipe Risiko",
+   "options": "Tipe Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "Penetapan Konteks"
+  },
+  {
+   "fieldname": "konteks",
+   "fieldtype": "Link",
+   "label": "Konteks",
+   "options": "Penetapan Konteks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "data_konteks",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Identifikasi Risiko"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fieldname": "risk_id",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Risk ID",
+   "reqd": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-17 23:41:08.512512",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Identifikasi Risiko",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "deskripsi_libraray,deskripsi_risiko",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

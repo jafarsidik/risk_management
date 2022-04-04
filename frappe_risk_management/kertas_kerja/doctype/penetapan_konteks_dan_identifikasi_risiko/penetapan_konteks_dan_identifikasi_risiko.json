@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_copy": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:PK{#####}",
+ "creation": "2022-02-14 23:14:11.697813",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_kajian_risiko",
+  "column_break_3",
+  "sasaran_dan_kegiatan",
+  "section_break_5",
+  "deskripsi_konteks",
+  "html_kajian",
+  "html_sasaran_dan_kegiatan",
+  "get_kegiatan",
+  "kk_02_konteks_dan_identifikasi_section",
+  "sumber_risiko_external",
+  "sumber_risiko_internal_column",
+  "sumber_risiko_internal"
+ ],
+ "fields": [
+  {
+   "fieldname": "kk_02_konteks_dan_identifikasi_section",
+   "fieldtype": "Section Break",
+   "label": "Penetapan konteks"
+  },
+  {
+   "fieldname": "sumber_risiko_internal_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sumber_risiko_internal",
+   "fieldtype": "Table",
+   "label": "Sumber Risiko Internal",
+   "options": "Sumber Risiko Internal Child"
+  },
+  {
+   "fieldname": "sumber_risiko_external",
+   "fieldtype": "Table",
+   "label": "Sumber Risiko External",
+   "options": "Sumber Risiko External Child"
+  },
+  {
+   "description": "Pilih Sasaran & Kegaitan dari Kajian Risiko tertentu untuk anda melakukan Penetapan Konteks,",
+   "fieldname": "sasaran_dan_kegiatan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sasaran dan Kegiatan",
+   "options": "Sasaran Dan Kegiatan",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_sasaran_dan_kegiatan",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Pilih Kajian Risiko untuk anda melakukan Penetapan Konteks.",
+   "fieldname": "id_kajian_risiko",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Kajian Risiko",
+   "options": "Kajian Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "html_kajian",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "deskripsi_konteks",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi Konteks"
+  },
+  {
+   "fieldname": "get_kegiatan",
+   "fieldtype": "Button",
+   "label": "Get Kegiatan"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-15 01:58:41.515525",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Penetapan Konteks dan Identifikasi Risiko",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

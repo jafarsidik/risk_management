@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PNG-{#####}",
+ "creation": "2022-03-18 09:01:03.306417",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "risiko",
+  "penanganan_risiko",
+  "tingkat_risiko_current_section",
+  "tingkat_kemungkinan_current",
+  "tingkat_risiko_current__p_x_d",
+  "column_break_6",
+  "tingkat_dampak_current",
+  "tingkat_risiko_current__kodefikasi_",
+  "tingkat_risiko_target_section",
+  "onclick_kemungkinan",
+  "tingkat_kemungkinan_target",
+  "tingkat_risiko_target__p_x_d",
+  "column_break_12",
+  "onclick_dampak",
+  "tingkat_dampak_target",
+  "tingkat_risiko_target__kodefikasi_",
+  "risk_library",
+  "kategori_risiko",
+  "tipe_risiko",
+  "deskripsi_risiko"
+ ],
+ "fields": [
+  {
+   "fieldname": "risiko",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Analisa & Evaluasi Risiko",
+   "options": "Analisa dan Evaluasi Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "penanganan_risiko",
+   "fieldtype": "Table",
+   "label": "Penanganan Risiko",
+   "options": "Penanganan Risiko Child"
+  },
+  {
+   "fieldname": "tingkat_risiko_current_section",
+   "fieldtype": "Section Break",
+   "label": "Tingkat Risiko Current"
+  },
+  {
+   "fetch_from": "risiko.tingkat_kemungkinan_current",
+   "fieldname": "tingkat_kemungkinan_current",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Kemungkinan Current"
+  },
+  {
+   "fetch_from": "risiko.mungking_x_dampak_current",
+   "fieldname": "tingkat_risiko_current__p_x_d",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Current ( P x D)"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "risiko.tingkat_dampak_current",
+   "fieldname": "tingkat_dampak_current",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Dampak Current"
+  },
+  {
+   "fetch_from": "risiko.kodefikasi_inherent",
+   "fieldname": "tingkat_risiko_current__kodefikasi_",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Current ( Kodefikasi )"
+  },
+  {
+   "fieldname": "tingkat_risiko_target_section",
+   "fieldtype": "Section Break",
+   "label": "Tingkat Risiko Target"
+  },
+  {
+   "fieldname": "tingkat_kemungkinan_target",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Kemungkinan Target"
+  },
+  {
+   "fieldname": "tingkat_risiko_target__p_x_d",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Target ( P x D)"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tingkat_dampak_target",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Dampak Target"
+  },
+  {
+   "fieldname": "tingkat_risiko_target__kodefikasi_",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Target ( Kodefikasi )"
+  },
+  {
+   "fieldname": "onclick_kemungkinan",
+   "fieldtype": "Select",
+   "label": "Penanganan Menurunkan Kemungkinan ... Level",
+   "options": "0\n1\n2"
+  },
+  {
+   "fieldname": "onclick_dampak",
+   "fieldtype": "Select",
+   "label": "Penanganan Menurunkan Dampak ... Level",
+   "options": "0\n1\n2"
+  },
+  {
+   "fetch_from": "risiko.risk_library",
+   "fieldname": "risk_library",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "risiko.kategori_risiko",
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "risiko.tipe_risiko",
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Data",
+   "hidden": 1
+  },
+  {
+   "fetch_from": "risiko.deskripsi_risiko",
+   "fieldname": "deskripsi_risiko",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-19 17:31:04.160618",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Penanganan Risiko",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "risk_library,deskripsi_risiko,kategori_risiko,tipe_risiko",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

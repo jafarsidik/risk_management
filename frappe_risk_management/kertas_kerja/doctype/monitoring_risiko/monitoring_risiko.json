@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:MONITORING-{#####}",
+ "creation": "2022-03-18 14:41:18.774049",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "tipe_monitoring",
+  "column_break_3",
+  "peristiwa_risiko",
+  "section_break_5",
+  "tindakan_mitigasi",
+  "section_break_3",
+  "skala_kemungkinan",
+  "tingkat_kemungkinan",
+  "tingkat_risiko_target__p_x_d_",
+  "column_break_7",
+  "skala_dampak",
+  "tingkat_dampak",
+  "tingkat_risiko_target__kodefikasi_"
+ ],
+ "fields": [
+  {
+   "fieldname": "peristiwa_risiko",
+   "fieldtype": "Link",
+   "label": "Deskripsi Risiko",
+   "options": "Penanganan Risiko"
+  },
+  {
+   "fetch_from": "skala_dampak.skala_dampak",
+   "fieldname": "skala_kemungkinan",
+   "fieldtype": "Link",
+   "label": "Skala Kemungkinan",
+   "options": "Skala Kemungkinan"
+  },
+  {
+   "fieldname": "tingkat_kemungkinan",
+   "fieldtype": "Data",
+   "label": "Tingkat Kemungkinan"
+  },
+  {
+   "fieldname": "tingkat_dampak",
+   "fieldtype": "Data",
+   "label": "Tingkat Dampak"
+  },
+  {
+   "fieldname": "skala_dampak",
+   "fieldtype": "Link",
+   "label": "Skala Dampak",
+   "options": "Skala Dampak"
+  },
+  {
+   "fieldname": "tingkat_risiko_target__p_x_d_",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Target ( P x D )"
+  },
+  {
+   "fieldname": "tingkat_risiko_target__kodefikasi_",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Target ( Kodefikasi )"
+  },
+  {
+   "fieldname": "tindakan_mitigasi",
+   "fieldtype": "Table",
+   "label": "Tindakan Mitigasi",
+   "options": "Monitoring Mitigasi Child"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tipe_monitoring",
+   "fieldtype": "Select",
+   "label": "Object Monitoring",
+   "options": "\nRencana Tindak Penanganan\nRisk Register"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-19 17:34:15.721611",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Monitoring Risiko",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

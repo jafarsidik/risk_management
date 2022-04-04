@@ -40,6 +40,7 @@
    "read_only": 1
   },
   {
+   "default": "0",
    "fieldname": "is_group",
    "fieldtype": "Check",
    "label": "Is Group"
@@ -60,7 +61,7 @@
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2022-01-12 00:02:31.900061",
+ "modified": "2022-03-19 18:36:03.545760",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Corporate",
@@ -84,5 +85,8 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

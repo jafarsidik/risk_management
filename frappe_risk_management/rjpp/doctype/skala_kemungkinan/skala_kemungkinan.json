@@ -1,16 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:SK{#####}",
+ "autoname": "format:SK{######}",
  "creation": "2022-01-19 10:23:03.425303",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "kriteria_kemungkinan",
-  "skala_kemungkinan",
-  "tingkat_kemungkinan",
-  "probabilitas"
+  "skala_kemungkinan"
  ],
  "fields": [
   {
@@ -34,27 +32,14 @@
    "label": "Skala Kemungkinan",
    "reqd": 1,
    "unique": 1
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "tingkat_kemungkinan",
-   "fieldtype": "Data",
-   "label": "Tingkat Kemungkinan"
-  },
-  {
-   "allow_in_quick_entry": 1,
-   "fieldname": "probabilitas",
-   "fieldtype": "Data",
-   "label": "Probabilitas"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-02-01 13:10:12.618546",
+ "modified": "2022-02-16 22:35:28.379483",
  "modified_by": "Administrator",
  "module": "RJPP",
  "name": "Skala Kemungkinan",
- "name_case": "Title Case",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
@@ -72,9 +57,12 @@
   }
  ],
  "quick_entry": 1,
+ "search_fields": "skala_kemungkinan",
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "skala_kemungkinan",
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1

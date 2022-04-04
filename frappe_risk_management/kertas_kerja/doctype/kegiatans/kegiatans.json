@@ -1,0 +1,222 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{#####}",
+ "creation": "2022-03-17 21:48:29.973160",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "sasaran",
+  "column_break_3",
+  "kajian_risiko",
+  "break_html",
+  "data_kajian_risiko",
+  "section_break_5",
+  "judul_kegiatan",
+  "direktorat",
+  "divisi",
+  "tanggal_mulai",
+  "tanggal_selesai",
+  "column_break_7",
+  "output_kegiatan",
+  "jumlah_output",
+  "section_break_8",
+  "indikator_kinerja_kegiatan_ikk",
+  "column_break_12",
+  "satuan_ikk",
+  "column_break_14",
+  "target_ikk",
+  "data_16",
+  "anggaran_kegiatan",
+  "column_break_18",
+  "coa",
+  "column_break_20",
+  "nama_akun"
+ ],
+ "fields": [
+  {
+   "fetch_from": "sasaran.id_kajian_risiko",
+   "fieldname": "kajian_risiko",
+   "fieldtype": "Link",
+   "label": "Kajian Risiko",
+   "options": "Kajian Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sasaran",
+   "fieldtype": "Link",
+   "label": "Sasaran",
+   "options": "Sasaran",
+   "reqd": 1
+  },
+  {
+   "fieldname": "judul_kegiatan",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Judul Kegiatan",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "direktorat",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Direktorat",
+   "options": "Direktorat"
+  },
+  {
+   "fieldname": "divisi",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Divisi",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "tanggal_mulai",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tanggal Mulai"
+  },
+  {
+   "fieldname": "tanggal_selesai",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Tanggal Selesai"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "output_kegiatan",
+   "fieldtype": "Small Text",
+   "label": "Output Kegiatan"
+  },
+  {
+   "fieldname": "jumlah_output",
+   "fieldtype": "Data",
+   "label": "Jumlah Output"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "indikator_kinerja_kegiatan_ikk",
+   "fieldtype": "Link",
+   "label": "Indikator Kinerja Kegiatan (IKK)",
+   "options": "Indikator Kinerja Kegiatan"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "satuan_ikk",
+   "fieldtype": "Link",
+   "label": "Satuan IKK",
+   "options": "Satuan Indikator Kinerja Kegiatan"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_ikk",
+   "fieldtype": "Data",
+   "label": "Target IKK"
+  },
+  {
+   "fieldname": "data_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "anggaran_kegiatan",
+   "fieldtype": "Currency",
+   "label": "Anggaran Kegiatan"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "coa",
+   "fieldtype": "Data",
+   "label": "COA"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nama_akun",
+   "fieldtype": "Read Only",
+   "label": "Nama Akun"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "break_html",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_kajian_risiko",
+   "fieldtype": "HTML"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-22 18:22:17.778174",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Kegiatans",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "judul_kegiatan",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "judul_kegiatan",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

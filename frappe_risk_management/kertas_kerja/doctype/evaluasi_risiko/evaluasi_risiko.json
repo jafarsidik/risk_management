@@ -1,0 +1,188 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:EVLS-{#####}",
+ "creation": "2022-03-15 03:11:06.212301",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "analisa_risiko_tab",
+  "risiko",
+  "evaluasi_risiko_tab",
+  "data_analisa",
+  "existing_kontrol_section",
+  "risk_kontrol",
+  "a__t",
+  "tingkat_penerapan",
+  "column_break_9",
+  "deskripsi",
+  "section_break_11",
+  "efektifitas_terhadap_kemungkinan",
+  "column_break_13",
+  "efektifitas_terhadap_dampak",
+  "tingkat_risiko_current_section",
+  "mungkin_x_dampak_risiko_current",
+  "column_break_17",
+  "kodefikasi_risiko_current",
+  "perlakuan_penangan_risiko_section",
+  "mungkin_x_dampak_perlakuan_penanganan_risiko",
+  "column_break_21",
+  "kodefikasi_perlakuan_penanganan_risiko",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "analisa_risiko_tab",
+   "fieldtype": "Tab Break",
+   "label": "Analisa Risiko"
+  },
+  {
+   "fieldname": "risiko",
+   "fieldtype": "Link",
+   "label": "Risiko",
+   "options": "Analisa dan Evaluasi Risiko"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Evaluasi Risiko",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "evaluasi_risiko_tab",
+   "fieldtype": "Tab Break",
+   "label": "Evaluasi Risiko"
+  },
+  {
+   "fieldname": "data_analisa",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "risk_kontrol",
+   "fieldtype": "Data",
+   "label": "Risk Kontrol"
+  },
+  {
+   "fieldname": "existing_kontrol_section",
+   "fieldtype": "Section Break",
+   "label": "Existing Kontrol"
+  },
+  {
+   "fieldname": "a__t",
+   "fieldtype": "Select",
+   "label": "A / T",
+   "options": "Ada\nTidak Ada"
+  },
+  {
+   "fieldname": "tingkat_penerapan",
+   "fieldtype": "Select",
+   "label": "Tingkat Penerapan",
+   "options": "1% s/d 25%\n26% s/d 50%\n51% s/d 75%\n76% s/d 100%"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deskripsi",
+   "fieldtype": "Small Text",
+   "label": "Deskripsi"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "efektifitas_terhadap_kemungkinan",
+   "fieldtype": "Table",
+   "label": "Efektifitas Terhadap Kemungkinan",
+   "options": "Efektifitas Terhadap Kemungkinan Child"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "efektifitas_terhadap_dampak",
+   "fieldtype": "Table",
+   "label": "Efektifitas Terhadap Dampak ",
+   "options": "Efektifitas Terhadap Dampak Child"
+  },
+  {
+   "fieldname": "tingkat_risiko_current_section",
+   "fieldtype": "Section Break",
+   "label": "Tingkat Risiko Current"
+  },
+  {
+   "fieldname": "mungkin_x_dampak_risiko_current",
+   "fieldtype": "Read Only",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kodefikasi_risiko_current",
+   "fieldtype": "Read Only",
+   "label": "Kodefikasi"
+  },
+  {
+   "fieldname": "perlakuan_penangan_risiko_section",
+   "fieldtype": "Section Break",
+   "label": "Perlakuan Penangan Risiko"
+  },
+  {
+   "fieldname": "mungkin_x_dampak_perlakuan_penanganan_risiko",
+   "fieldtype": "Read Only",
+   "label": "Mungkin X Dampak"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kodefikasi_perlakuan_penanganan_risiko",
+   "fieldtype": "Read Only",
+   "label": "Kodefikasi"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-03-16 17:06:38.375200",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Evaluasi Risiko",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

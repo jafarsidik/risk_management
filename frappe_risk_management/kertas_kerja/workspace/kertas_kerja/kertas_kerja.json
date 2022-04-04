@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Program Kertas Kerja\",\"col\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Risk Register",
+   "label": "Risk Register"
+  }
+ ],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Risk Register\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Program Kertas Kerja\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Risk Library\",\"col\":3}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":4}}]",
  "creation": "2022-02-14 23:07:52.423142",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -12,17 +17,47 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Program Kertas Kerja",
-   "link_count": 2,
+   "label": "(Old) Sasaran &amp; Penetapan Konteks Identifikasi",
+   "link_count": 0,
+   "link_to": "Penetapan Konteks",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Analisa, Evaluasi &amp; Penanganan Risiko",
+   "link_count": 0,
+   "link_to": "Analisa dan Evaluasi Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Analisa &amp; Evaluasi",
+   "link_count": 0,
+   "link_to": "Analisa dan Evaluasi Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risk Library",
+   "link_count": 3,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Kertas Kerja V1",
+   "label": "Risk Library",
    "link_count": 0,
-   "link_to": "Program Kertas Kerja",
+   "link_to": "Risiko",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -30,15 +65,141 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Kertas Kerja V2",
+   "label": "Kategori Risiko",
    "link_count": 0,
-   "link_to": "Program Kertas Kerja V2",
+   "link_to": "Kategori Risiko",
    "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Risiko",
+   "link_count": 0,
+   "link_to": "Tipe Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Program Kertas Kerja",
+   "link_count": 9,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kajian Risiko",
+   "link_count": 0,
+   "link_to": "Kajian Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sasaran",
+   "link_count": 0,
+   "link_to": "Sasaran",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kegiatan",
+   "link_count": 0,
+   "link_to": "Kegiatans",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Penetapan Konteks",
+   "link_count": 0,
+   "link_to": "Penetapan Konteks",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indentifikasi Risiko",
+   "link_count": 0,
+   "link_to": "Identifikasi Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Analisa &amp; Evaluasi Risiko",
+   "link_count": 0,
+   "link_to": "Analisa dan Evaluasi Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Penanganan Risiko",
+   "link_count": 0,
+   "link_to": "Penanganan Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Monitoring Risiko",
+   "link_count": 0,
+   "link_to": "Monitoring Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pelaporan Kejadian Risiko ( Lost Event )",
+   "link_count": 0,
+   "link_to": "Pelaporan Kejadian Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reporting",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Data Sasaran",
+   "link_count": 0,
+   "link_to": "Sasaran",
+   "link_type": "Report",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-02-15 09:10:19.355941",
+ "modified": "2022-03-23 20:40:57.705904",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Kertas Kerja",
@@ -46,7 +207,7 @@
  "parent_page": "",
  "public": 1,
  "roles": [],
- "sequence_id": 1,
+ "sequence_id": 1.0,
  "shortcuts": [],
  "title": "Kertas Kerja"
 }

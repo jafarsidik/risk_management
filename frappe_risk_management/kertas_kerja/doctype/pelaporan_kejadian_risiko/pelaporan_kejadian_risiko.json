@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-19 17:49:47.850247",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tanggal_kejadian",
+  "risiko",
+  "kategori_risik",
+  "tipe_risiko",
+  "risk_library",
+  "deskripsi_risiko",
+  "penyebab_risiko"
+ ],
+ "fields": [
+  {
+   "fieldname": "risiko",
+   "fieldtype": "Text Editor",
+   "label": "Deskripsi Kejadian"
+  },
+  {
+   "fieldname": "tanggal_kejadian",
+   "fieldtype": "Date",
+   "label": "Tanggal Kejadian"
+  },
+  {
+   "fieldname": "kategori_risik",
+   "fieldtype": "Link",
+   "label": "Kategori Risik",
+   "options": "Kategori Risiko"
+  },
+  {
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Link",
+   "label": "Tipe Risiko",
+   "options": "Tipe Risiko"
+  },
+  {
+   "fieldname": "risk_library",
+   "fieldtype": "Link",
+   "label": "Risk Library",
+   "options": "Risiko"
+  },
+  {
+   "fieldname": "deskripsi_risiko",
+   "fieldtype": "Text Editor",
+   "label": "Deskripsi Risiko"
+  },
+  {
+   "fieldname": "penyebab_risiko",
+   "fieldtype": "Data",
+   "label": "Penyebab Risiko"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-19 18:12:47.676235",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Pelaporan Kejadian Risiko",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}

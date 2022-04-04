@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-17 11:52:48.267828",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "efektifitas",
+  "skala",
+  "nilai"
+ ],
+ "fields": [
+  {
+   "fieldname": "efektifitas",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Efektifitas",
+   "options": "Efektifitas",
+   "reqd": 1
+  },
+  {
+   "fieldname": "skala",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Skala"
+  },
+  {
+   "fieldname": "nilai",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Nilai"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-17 11:52:48.267828",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Efektifitas Terhadap Dampak Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

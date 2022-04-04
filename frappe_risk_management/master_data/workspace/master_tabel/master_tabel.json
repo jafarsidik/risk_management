@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\",\"level\":4,\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Tingkat\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kriteria &amp; Skala\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kriteria &amp; Skala\",\"col\":4}}]",
  "creation": "2022-01-04 13:47:28.880924",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -9,84 +9,6 @@
  "idx": 0,
  "label": "Master Tabel",
  "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Indikator",
-   "link_count": 7,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Indikator Kinerja",
-   "link_count": 0,
-   "link_to": "Indikator Kinerja",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Satuan Indikator Kinerja",
-   "link_count": 0,
-   "link_to": "Satuan Indikator Kinerja",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Tipe Indikator Kinerja",
-   "link_count": 0,
-   "link_to": "Tipe Indikator Kinerja",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Unit Indikantor Kinerja",
-   "link_count": 0,
-   "link_to": "Unit Indikator Kinerja",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Perspektif",
-   "link_count": 0,
-   "link_to": "Perspektif",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Aspek",
-   "link_count": 0,
-   "link_to": "Aspek",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Fungsi",
-   "link_count": 0,
-   "link_to": "Fungsi",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
   {
    "hidden": 0,
    "is_query_report": 0,
@@ -280,9 +202,97 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indikator",
+   "link_count": 8,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Satuan Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Satuan Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Indikator Kinerja",
+   "link_count": 0,
+   "link_to": "Tipe Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Unit Indikantor Kinerja",
+   "link_count": 0,
+   "link_to": "Unit Indikator Kinerja",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Perspektif",
+   "link_count": 0,
+   "link_to": "Perspektif",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Aspek",
+   "link_count": 0,
+   "link_to": "Aspek",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fungsi",
+   "link_count": 0,
+   "link_to": "Fungsi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kodefikasi",
+   "link_count": 0,
+   "link_to": "Kodefikasi",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-02-14 23:09:05.817337",
+ "modified": "2022-03-16 18:14:07.430131",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Master Tabel",
@@ -290,7 +300,7 @@
  "parent_page": "",
  "public": 1,
  "roles": [],
- "sequence_id": 2,
+ "sequence_id": 2.0,
  "shortcuts": [],
  "title": "Master Tabel"
 }

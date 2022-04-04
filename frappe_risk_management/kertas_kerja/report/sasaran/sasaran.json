@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-03-22 10:49:01.007736",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "",
+ "modified": "2022-03-23 20:44:05.446492",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Sasaran",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT\r\n   `tabSasaran`.name as \"ID :Link/Sasaran:80\",\r\n   `tabSasaran`.id_kajian_risiko as \"Kajian Risiko :Link/Kajian Risiko\",\r\n   `tabSasaran`.organisasi as \"Organisasi :Select\",\r\n   `tabSasaran`.deskripsi_sasaran as \"Sasaran :Data\",\r\n   `tabSasaran`.unit_kerja as \"Unit Kerja :Link/Unit Kerja\",\r\n   `tabSasaran`.direktorat_pemilik_sasaran as \"Direktorat Pemilik Sasaran :Link/Direktorat\",\r\n   `tabSasaran`.divisi_pemilik_sasaran as \"Divisi Pemilik Sasaran :Link/Divisi\",\r\n   `tabSasaran`.indikator_kinerja_sasaran_iks as \"Indikator Kinerja Sasaran :Link/Indikator Kinerja Sasaran\",\r\n   `tabSasaran`.satuan_indikator_kinerja as \"Satuan Indikator Kinerja Sasaran :Link/Satuan Indikator Kinerja Sasaran\",\r\n   `tabSasaran`.target_iks as \"Target Indikator Kinerja Sasaran :Data\"\r\nFROM\r\n  `tabSasaran`\r\nWHERE `tabSasaran`.organisasi = %(organisasi)s OR  `tabSasaran`.unit_kerja = %(unit_kerja)s\r\n",
+ "ref_doctype": "Sasaran",
+ "report_name": "Sasaran",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

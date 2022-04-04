@@ -1,0 +1,236 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "autoname": "format:ANLS-{#####}",
+ "creation": "2022-02-17 10:27:18.987363",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sasaran_dan_penetapan_konteks_identifiaksi_tab",
+  "sasaran_dan_penetapan_konteks_identifiaksi_section",
+  "risiko",
+  "data_risiko",
+  "analisa_risiko_tab",
+  "tipe_risiko",
+  "kategori_risiko",
+  "risk_library",
+  "deskripsi_risiko",
+  "risiko_html_b",
+  "analisa_risiko",
+  "kemungkinan",
+  "column_break_10",
+  "dampak",
+  "section_break_12",
+  "inherent",
+  "tingkat_kemungkinan",
+  "tingkat_dampak",
+  "mungkin_x_dampak",
+  "column_break_14",
+  "tingkat_kemungkinan_current",
+  "tingkat_dampak_current",
+  "mungking_x_dampak_current",
+  "section_break_24",
+  "kodefikasi",
+  "column_break_26",
+  "kodefikasi_inherent",
+  "column_break_28",
+  "strategi_penanganan"
+ ],
+ "fields": [
+  {
+   "fieldname": "analisa_risiko",
+   "fieldtype": "Section Break",
+   "label": "Analisa & Evaluasi Risiko"
+  },
+  {
+   "fieldname": "sasaran_dan_penetapan_konteks_identifiaksi_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "tingkat_kemungkinan",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Kemungkinan Inherent"
+  },
+  {
+   "bold": 1,
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break",
+   "label": "Current"
+  },
+  {
+   "fieldname": "kemungkinan",
+   "fieldtype": "Table",
+   "label": "Penyebab Risiko",
+   "options": "Kemungkinan Child"
+  },
+  {
+   "fieldname": "dampak",
+   "fieldtype": "Table",
+   "label": "Penjelasan Dampak Risiko",
+   "options": "Dampak Child"
+  },
+  {
+   "default": "0",
+   "fieldname": "tingkat_dampak",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Dampak Inherent"
+  },
+  {
+   "default": "0",
+   "fieldname": "mungkin_x_dampak",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Inherent ( P x D)"
+  },
+  {
+   "default": "0",
+   "fieldname": "kodefikasi",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Inherent ( Kodefikasi )"
+  },
+  {
+   "fieldname": "sasaran_dan_penetapan_konteks_identifiaksi_tab",
+   "fieldtype": "Tab Break",
+   "label": "Risiko Teridentifikasi"
+  },
+  {
+   "fieldname": "analisa_risiko_tab",
+   "fieldtype": "Tab Break",
+   "label": "Analisa & Evaluasi Risiko"
+  },
+  {
+   "fieldname": "data_risiko",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "risiko",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Risiko",
+   "options": "Identifikasi Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "risiko_html_b",
+   "fieldtype": "HTML"
+  },
+  {
+   "fetch_from": "risiko.tipe_risiko",
+   "fieldname": "tipe_risiko",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Tipe Risiko"
+  },
+  {
+   "fetch_from": "risiko.kategori_risiko",
+   "fieldname": "kategori_risiko",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Kategori Risiko"
+  },
+  {
+   "fetch_from": "risiko.deskripsi_risiko",
+   "fieldname": "deskripsi_risiko",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Deskripsi Risiko"
+  },
+  {
+   "fetch_from": "risiko.deskripsi_libraray",
+   "fieldname": "risk_library",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Risk Library"
+  },
+  {
+   "bold": 1,
+   "fieldname": "inherent",
+   "fieldtype": "Column Break",
+   "label": "Inherent"
+  },
+  {
+   "default": "0",
+   "fieldname": "tingkat_kemungkinan_current",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Kemungkinan Current"
+  },
+  {
+   "default": "0",
+   "fieldname": "tingkat_dampak_current",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Dampak Current"
+  },
+  {
+   "default": "0",
+   "fieldname": "mungking_x_dampak_current",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Current ( P x D)"
+  },
+  {
+   "default": "0",
+   "fieldname": "kodefikasi_inherent",
+   "fieldtype": "Read Only",
+   "label": "Tingkat Risiko Current ( Kodefikasi )"
+  },
+  {
+   "fieldname": "strategi_penanganan",
+   "fieldtype": "Read Only",
+   "label": "Strategi Penanganan"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_28",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-19 01:36:28.924847",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Analisa dan Evaluasi Risiko",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "risk_library,deskripsi_risiko,kategori_risiko,tipe_risiko",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

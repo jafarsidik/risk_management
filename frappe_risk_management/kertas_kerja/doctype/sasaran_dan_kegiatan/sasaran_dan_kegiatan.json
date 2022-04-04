@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:id_sasaran",
+ "creation": "2022-02-19 02:18:48.304141",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "id_kajian_risiko",
+  "html_kajian_risiko",
+  "sasaran_section",
+  "organisasi",
+  "deskripsi_sasaran",
+  "column_break_4",
+  "unit_kerja",
+  "id_sasaran",
+  "section_break_6",
+  "indikator_kinerja_sasaran_iks",
+  "column_break_8",
+  "satuan_indikator_kinerja",
+  "column_break_10",
+  "target_iks",
+  "section_break_12",
+  "direktorat_pemilik_sasaran",
+  "column_break_14",
+  "divisi_pemilik_sasaran"
+ ],
+ "fields": [
+  {
+   "fieldname": "sasaran_section",
+   "fieldtype": "Section Break",
+   "label": "Sasaran"
+  },
+  {
+   "fieldname": "deskripsi_sasaran",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Deskripsi Sasaran",
+   "reqd": 1
+  },
+  {
+   "fieldname": "indikator_kinerja_sasaran_iks",
+   "fieldtype": "Link",
+   "label": "Indikator Kinerja Sasaran (IKS)",
+   "options": "Indikator Kinerja Sasaran"
+  },
+  {
+   "fieldname": "satuan_indikator_kinerja",
+   "fieldtype": "Link",
+   "label": "Satuan Indikator Kinerja",
+   "options": "Satuan Indikator Kinerja Sasaran"
+  },
+  {
+   "fieldname": "target_iks",
+   "fieldtype": "Data",
+   "label": "Target IKS"
+  },
+  {
+   "fieldname": "direktorat_pemilik_sasaran",
+   "fieldtype": "Link",
+   "label": "Direktorat Pemilik Sasaran",
+   "options": "Direktorat"
+  },
+  {
+   "fieldname": "divisi_pemilik_sasaran",
+   "fieldtype": "Link",
+   "label": "Divisi Pemilik Sasaran",
+   "options": "Divisi"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_sasaran",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "ID Sasaran",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id_kajian_risiko",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Kajian Risiko",
+   "options": "Kajian Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "html_kajian_risiko",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "organisasi",
+   "fieldtype": "Select",
+   "label": "Organisasi",
+   "options": "Holding\nSub Holding\nAnak Perusahaan\nCucu Perusahaan\nCicit Perusahaan"
+  },
+  {
+   "fieldname": "unit_kerja",
+   "fieldtype": "Link",
+   "label": "Unit Kerja",
+   "options": "Unit Kerja"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-17 21:17:40.811796",
+ "modified_by": "Administrator",
+ "module": "Kertas Kerja",
+ "name": "Sasaran Dan Kegiatan",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "deskripsi_sasaran"
+}
