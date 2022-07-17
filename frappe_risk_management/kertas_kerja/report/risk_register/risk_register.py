@@ -61,7 +61,7 @@ def execute(filters=None):
 		`tipe_risiko`,
 	    (SELECT `penyebab`
           FROM `tabKemungkinan Child`
-          WHERE `tabKemungkinan Child`.`parent` = `tabAnalisa dan Evaluasi Risiko`.`name`) AS `penyebabs`,
+          WHERE `tabKemungkinan Child`.`parent` = `tabAnalisa dan Evaluasi Risiko`.`name`) AS `penyebabs`, 
 		(SELECT `penjelasan_dampak_risiko_child`
           FROM `tabDampak Child` 
           WHERE `tabDampak Child`.`parent` = `tabAnalisa dan Evaluasi Risiko`.`name`) AS `dampaks`,
