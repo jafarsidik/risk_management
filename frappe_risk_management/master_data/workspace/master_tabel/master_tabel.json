@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kriteria &amp; Skala\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Master Tabel\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Strategic Business Unit\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Indikator\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Master External / Internal\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Kriteria &amp; Skala\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Risk Officer\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Risk Library\",\"col\":4}}]",
  "creation": "2022-01-04 13:47:28.880924",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -290,9 +290,65 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risk Officer",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risk Officer",
+   "link_count": 0,
+   "link_to": "Risk Officer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risk Library",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Risk Library",
+   "link_count": 0,
+   "link_to": "Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kategori Risiko",
+   "link_count": 0,
+   "link_to": "Kategori Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tipe Risiko",
+   "link_count": 0,
+   "link_to": "Tipe Risiko",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-03-16 18:14:07.430131",
+ "modified": "2022-06-12 13:42:07.741355",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Master Tabel",

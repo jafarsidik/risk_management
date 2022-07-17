@@ -5,7 +5,7 @@
    "label": "Risk Register"
   }
  ],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Risk Register\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Program Kertas Kerja\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Risk Library\",\"col\":3}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":4}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Kertas Kerja\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t\\n\\t\\t\\t\\n\\t\\t</span>\",\"col\":12}},{\"type\":\"chart\",\"data\":{\"chart_name\":\"Risk Register\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Program Kertas Kerja\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Reporting\",\"col\":4}}]",
  "creation": "2022-02-14 23:07:52.423142",
  "docstatus": 0,
  "doctype": "Workspace",
@@ -17,76 +17,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "(Old) Sasaran &amp; Penetapan Konteks Identifikasi",
-   "link_count": 0,
-   "link_to": "Penetapan Konteks",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Analisa, Evaluasi &amp; Penanganan Risiko",
-   "link_count": 0,
-   "link_to": "Analisa dan Evaluasi Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Analisa &amp; Evaluasi",
-   "link_count": 0,
-   "link_to": "Analisa dan Evaluasi Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Risk Library",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Risk Library",
-   "link_count": 0,
-   "link_to": "Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Kategori Risiko",
-   "link_count": 0,
-   "link_to": "Kategori Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Tipe Risiko",
-   "link_count": 0,
-   "link_to": "Tipe Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Program Kertas Kerja",
-   "link_count": 9,
+   "link_count": 8,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -153,19 +85,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Penanganan Risiko",
+   "label": "Penanganan &amp; Monitoring Risiko",
    "link_count": 0,
    "link_to": "Penanganan Risiko",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Monitoring Risiko",
-   "link_count": 0,
-   "link_to": "Monitoring Risiko",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -184,9 +106,39 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Reporting",
-   "link_count": 1,
+   "link_count": 4,
    "onboard": 0,
    "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Risk Register",
+   "link_count": 0,
+   "link_to": "Risk Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Daftar Risiko Signifikan",
+   "link_count": 0,
+   "link_to": "Daftar Risiko Signifikan",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Heat Map",
+   "link_count": 0,
+   "link_to": "heatmap",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
   },
   {
    "hidden": 0,
@@ -199,14 +151,24 @@
    "type": "Link"
   }
  ],
- "modified": "2022-03-23 20:40:57.705904",
+ "modified": "2022-06-12 22:24:31.400768",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Kertas Kerja",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "roles": [],
+ "roles": [
+  {
+   "role": "Risk Officer"
+  },
+  {
+   "role": "Risk Owner"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
  "sequence_id": 1.0,
  "shortcuts": [],
  "title": "Kertas Kerja"

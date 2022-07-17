@@ -11,7 +11,6 @@
   "lft",
   "rgt",
   "is_group",
-  "old_parent",
   "parent_corporate"
  ],
  "fields": [
@@ -19,7 +18,7 @@
    "fieldname": "perusahaan",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Perusahaan",
+   "label": "Company",
    "reqd": 1,
    "unique": 1
   },
@@ -46,22 +45,16 @@
    "label": "Is Group"
   },
   {
-   "fieldname": "old_parent",
-   "fieldtype": "Link",
-   "label": "Old Parent",
-   "options": "Corporate"
-  },
-  {
    "fieldname": "parent_corporate",
    "fieldtype": "Link",
-   "label": "Parent Corporate",
+   "label": "Parent Company",
    "options": "Corporate"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2022-03-19 18:36:03.545760",
+ "modified": "2022-06-14 12:29:39.241023",
  "modified_by": "Administrator",
  "module": "Master Data",
  "name": "Corporate",

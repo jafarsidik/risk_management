@@ -6,6 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "identifikasi_risiko",
   "tanggal_kejadian",
   "risiko",
   "kategori_risik",
@@ -52,11 +53,17 @@
    "fieldname": "penyebab_risiko",
    "fieldtype": "Data",
    "label": "Penyebab Risiko"
+  },
+  {
+   "fieldname": "identifikasi_risiko",
+   "fieldtype": "Link",
+   "label": "Daftar Risiko Teridentifikasi",
+   "options": "Identifikasi Risiko"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-19 18:12:47.676235",
+ "modified": "2022-05-12 18:51:58.942314",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Pelaporan Kejadian Risiko",

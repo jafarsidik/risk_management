@@ -11,7 +11,13 @@
  "field_order": [
   "sasaran_dan_penetapan_konteks_identifiaksi_tab",
   "sasaran_dan_penetapan_konteks_identifiaksi_section",
+  "kajian",
+  "sasaran",
+  "kegiatan",
+  "column_break_4",
+  "konteks",
   "risiko",
+  "section_break_9",
   "data_risiko",
   "analisa_risiko_tab",
   "tipe_risiko",
@@ -203,12 +209,59 @@
   {
    "fieldname": "column_break_28",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kajian",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kajian",
+   "options": "Kajian Risiko",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sasaran",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Sasaran",
+   "options": "Sasaran",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kegiatan",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Kegiatan",
+   "options": "Kegiatans",
+   "reqd": 1
+  },
+  {
+   "fieldname": "konteks",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Konteks",
+   "options": "Penetapan Konteks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
   }
  ],
- "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-19 01:36:28.924847",
+ "modified": "2022-07-17 23:35:22.178629",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Analisa dan Evaluasi Risiko",
@@ -227,10 +280,26 @@
    "select": 1,
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Risk Officer",
+   "share": 1,
+   "write": 1
   }
  ],
  "search_fields": "risk_library,deskripsi_risiko,kategori_risiko,tipe_risiko",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }

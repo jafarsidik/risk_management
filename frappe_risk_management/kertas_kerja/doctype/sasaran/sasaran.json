@@ -28,7 +28,9 @@
   {
    "fieldname": "id_kajian_risiko",
    "fieldtype": "Link",
+   "in_filter": 1,
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Kajian Risiko",
    "options": "Kajian Risiko",
    "reqd": 1
@@ -50,8 +52,10 @@
    "reqd": 1
   },
   {
+   "columns": 2,
    "fieldname": "deskripsi_sasaran",
    "fieldtype": "Text",
+   "in_list_view": 1,
    "label": "Deskripsi Sasaran",
    "reqd": 1
   },
@@ -115,7 +119,7 @@
    "link_fieldname": "sasaran"
   }
  ],
- "modified": "2022-03-21 11:40:13.067813",
+ "modified": "2022-07-17 22:21:24.692647",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Sasaran",

@@ -9,9 +9,9 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_1",
-  "sasaran",
-  "column_break_3",
   "kajian_risiko",
+  "column_break_3",
+  "sasaran",
   "break_html",
   "data_kajian_risiko",
   "section_break_5",
@@ -41,6 +41,9 @@
    "fetch_from": "sasaran.id_kajian_risiko",
    "fieldname": "kajian_risiko",
    "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Kajian Risiko",
    "options": "Kajian Risiko",
    "reqd": 1
@@ -187,10 +190,9 @@
    "fieldtype": "HTML"
   }
  ],
- "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-03-22 18:22:17.778174",
+ "modified": "2022-07-17 22:33:04.615719",
  "modified_by": "Administrator",
  "module": "Kertas Kerja",
  "name": "Kegiatans",
