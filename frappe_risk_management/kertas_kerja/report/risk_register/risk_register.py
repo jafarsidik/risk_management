@@ -5,7 +5,12 @@ import frappe
 
 
 def execute(filters=None):
-	columns=[
+    columns = get_columns(filters)
+    data = get_data(filters)
+    return columns, data
+
+def get_columns(filters):
+    return[
 		{
             'fieldname': 'risiko',
             'label': "Kode Risiko",
@@ -51,23 +56,34 @@ def execute(filters=None):
             'fieldname': 'kodefikasi_current',
             'label': "Level / Nilai Risiko Current",
             'fieldtype': 'Data',
+        },
+        {
+            'fieldname': 'kodefikasi_target',
+            'label': "Level / Nilai Risiko Target",
+            'fieldtype': 'Data',
         }
 	]
-	values = {'company': 'Frappe Technologies Inc'}
-	data = frappe.db.sql("""SELECT  
-		`risiko`,
-		`deskripsi_risiko`,
-		`kategori_risiko`,
-		`tipe_risiko`,
-	    (SELECT `penyebab`
-          FROM `tabKemungkinan Child`
-          WHERE `tabKemungkinan Child`.`parent` = `tabAnalisa dan Evaluasi Risiko`.`name`) AS `penyebabs`, 
-		(SELECT `penjelasan_dampak_risiko_child`
-          FROM `tabDampak Child` 
-          WHERE `tabDampak Child`.`parent` = `tabAnalisa dan Evaluasi Risiko`.`name`) AS `dampaks`,
-		`base_line_mulai`, 
-		`base_line_selesai`,
-		`kodefikasi_inherent` as `kodefikasi_current`
-		FROM `tabAnalisa dan Evaluasi Risiko`
-	""", as_dict=0)
-	return columns, data
+def get_data(filters):
+    kajiansql = "RP.`kajian` = '{kajian}'".format(kajian=filters.kajian) if filters.kajian else "1 = 1"
+    query =  frappe.db.sql("""SELECT  
+            RP.`deskripsi_risiko`,
+            RP.`kategori_risiko`,
+            RP.`tipe_risiko`,
+            (SELECT `penyebab`
+            FROM `tabKemungkinan Child`
+                        WHERE `tabKemungkinan Child`.`parent` = ANL.`name`
+                        ) AS `penyebabs`, 
+            (SELECT `tabDampak Child`.`penjelasan_dampak_risiko_child`
+            FROM `tabDampak Child` 
+                        WHERE `tabDampak Child`.`parent` = ANL.`name`
+            ) AS `dampaks`,
+            RP.`base_line_mulai`, 
+            RP.`base_line_selesai`,
+            RP.`tingkat_risiko_current__kodefikasi_` as `kodefikasi_current`,
+            RP.`tingkat_risiko_target__kodefikasi_` as `kodefikasi_target`,
+            RP.`risiko`
+        FROM `tabPenanganan Risiko` RP
+		left join `tabAnalisa dan Evaluasi Risiko` ANL on RP.`risiko` = ANL.`name`
+        WHERE ({kajiansql}) """.format( kajiansql=kajiansql),as_dict=1)
+    return query
+
