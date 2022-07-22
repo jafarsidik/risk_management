@@ -8,7 +8,7 @@ import frappe
 def execute(filters=None):
 	columns =[
 		{'fieldname':'name','label':'ID','fieldtype':'Data'},
-		{'fieldname':'id_kajian_risiko','label': _('Kajian Risiko'),'fieldtype': 'Link','options': 'Kajian Risiko'}
+		{'fieldname':'id_kajian_risiko','label': _('Kajian Risiko'),'fieldtype': 'Link','options': 'Kajian Risiko'},
 		{'fieldname':'organisasi':'label': 'Organisasi':'fieldtype':"Data"},
 		{'fieldname':'unit_kerja':'label': 'Unit Kerja':'fieldtype':"Link",'options': 'Unit Kerja'},
 		{'fieldname':'direktorat_pemilik_sasaran':'label': 'Unit Kerja Pemilik Sasaran':'fieldtype':"Link",'options': 'Direktorat'},
