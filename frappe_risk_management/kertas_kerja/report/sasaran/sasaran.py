@@ -9,10 +9,10 @@ def execute(filters=None):
 	columns =[
 		{'fieldname':'name','label':'ID','fieldtype':'Data'},
 		{'fieldname':'id_kajian_risiko','label': _('Kajian Risiko'),'fieldtype': 'Link','options': 'Kajian Risiko'},
-		{'fieldname':'organisasi':'label': 'Organisasi':'fieldtype':"Data"},
-		{'fieldname':'unit_kerja':'label': 'Unit Kerja':'fieldtype':"Link",'options': 'Unit Kerja'},
-		{'fieldname':'direktorat_pemilik_sasaran':'label': 'Unit Kerja Pemilik Sasaran':'fieldtype':"Link",'options': 'Direktorat'},
-		{'fieldname':'deskripsi_sasaran':'Deskripsi Sasaran': 'Deskripsi Sasarn':'fieldtype':"Data",},
+		{'fieldname':'organisasi','label': 'Organisasi','fieldtype':"Data"},
+		{'fieldname':'unit_kerja','label': 'Unit Kerja','fieldtype':"Link",'options': 'Unit Kerja'},
+		{'fieldname':'direktorat_pemilik_sasaran','label': 'Unit Kerja Pemilik Sasaran','fieldtype':"Link",'options': 'Direktorat'},
+		{'fieldname':'deskripsi_sasaran','Deskripsi Sasaran': 'Deskripsi Sasarn','fieldtype':"Data"},
 	]
 	data = frappe.db.get_list('Sasaran',
 			filters,
