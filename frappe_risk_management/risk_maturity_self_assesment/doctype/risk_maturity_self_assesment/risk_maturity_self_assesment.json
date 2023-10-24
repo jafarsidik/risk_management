@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_auto_repeat": 1,
+ "allow_copy": 1,
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-10-24 22:42:52.552908",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "amended_from",
+  "aspek_1_tab",
+  "section_break_4otll",
+  "category",
+  "building_block_1",
+  "aspek_2_tab",
+  "section_break_m2gni",
+  "category_2",
+  "building_block_2",
+  "aspek_3_tab",
+  "section_break_jjb9i",
+  "aspek_4_tab",
+  "aspek_5_tab",
+  "aspek_6_tab",
+  "aspek_7_tab",
+  "aspek_8_tab",
+  "aspek_9_tab",
+  "aspek_10_tab",
+  "aspek_11_tab"
+ ],
+ "fields": [
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category 1"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Risk Maturity Self Assesment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "aspek_1_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 1"
+  },
+  {
+   "fieldname": "aspek_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 2"
+  },
+  {
+   "fieldname": "aspek_3_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 3"
+  },
+  {
+   "fieldname": "aspek_4_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 4"
+  },
+  {
+   "fieldname": "aspek_5_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 5"
+  },
+  {
+   "fieldname": "aspek_6_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 6"
+  },
+  {
+   "fieldname": "aspek_7_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 7"
+  },
+  {
+   "fieldname": "aspek_8_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 8"
+  },
+  {
+   "fieldname": "aspek_9_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 9"
+  },
+  {
+   "fieldname": "aspek_10_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 10"
+  },
+  {
+   "fieldname": "aspek_11_tab",
+   "fieldtype": "Tab Break",
+   "label": "Aspek 11"
+  },
+  {
+   "fieldname": "section_break_4otll",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "building_block_1",
+   "fieldtype": "Data",
+   "label": "Building Block 1"
+  },
+  {
+   "fieldname": "section_break_m2gni",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "category_2",
+   "fieldtype": "Data",
+   "label": "Category 2"
+  },
+  {
+   "fieldname": "building_block_2",
+   "fieldtype": "Data",
+   "label": "Building Block 2"
+  },
+  {
+   "fieldname": "section_break_jjb9i",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-24 23:09:18.534955",
+ "modified_by": "Administrator",
+ "module": "Risk Maturity Self Assesment",
+ "name": "Risk Maturity Self Assesment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
